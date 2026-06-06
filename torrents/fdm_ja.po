@@ -18,23 +18,23 @@ msgstr "トラッカーの追加"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr ""
+msgstr "ピア:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr ""
+msgstr "シード:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr ""
+msgstr "可用性:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr ""
+msgstr "最終完了確認:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr ""
+msgstr "トラッカーの URL"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -54,35 +54,50 @@ msgstr "すべてのシーディングダウンロードを停止"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
-msgstr "アップロード比率制限を無視する"
+msgstr "アップロード比率制限を無視"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "強制再アナウンス"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr "%1をデフォルトのTorrentのクライアントにしますか？"
+msgstr "%1 を既定の Torrent クライアントにしますか？"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
-msgstr "%1 がデフォルトのTorrentクライアントであるかどうかを確認する"
+msgstr "%1 が既定の Torrent クライアントであるかどうかを確認する"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
-msgstr "%1 をデフォルトのTorrentクライアントにする"
+msgstr "%1 を既定の Torrent クライアントにする"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr "%2既定のアプリの設定%3 から、%1 を既定のトレントクライアントに設定してください"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr "マグネットリンクと関連付ける"
+msgstr "マグネットリンクの関連付け"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
-msgstr "Torrentファイルと関連付ける"
+msgstr "Torrent ファイルの関連付け"
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
-msgstr "URLを入力するかTorrentファイルを選択してください"
+msgstr "URL を入力するか Torrent ファイルを選択してください"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "URL または Torrent ファイルをドラッグ＆ドロップしてください"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -98,39 +113,43 @@ msgstr "シーディング"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
-msgstr "ダウンロード完了時に .torrent ファイルを削除する"
+msgstr "ダウンロードの完了後に .torrent ファイルを自動的に削除する"
 
 msgctxt "Settings|"
 msgid "Monitor folder for new .torrent files"
-msgstr "新しい .torrent ファイルの監視フォルダ"
+msgstr "新しい .torrent ファイルのフォルダーを監視する"
 
 msgctxt "Settings|"
 msgid "Enable DHT to find more peers"
-msgstr ""
+msgstr "より多くのピアを見つけるために DHT を有効にする"
 
 msgctxt "Settings|"
 msgid "Enable PeX to find more peers"
-msgstr ""
+msgstr "より多くのピアを見つけるために PeX を有効にする"
 
 msgctxt "Settings|"
 msgid "Enable Local Peer Discovery to find more peers"
-msgstr ""
+msgstr "より多くのピアを見つけるためにローカルピア探索を有効にする"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr ""
+msgstr "uTP を有効にする"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
-msgstr "着信接続にシステム定義のポートを使用する"
+msgstr "受信接続にシステム定義のポートを使用する"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr ""
+msgstr "定義済みのトラッカーリストを有効にする"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
-msgstr "BitTorrentの設定"
+msgstr "BitTorrent の設定"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "UPnP / NAT-PMP ポート転送を使用する"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

@@ -34,7 +34,7 @@ msgstr "Сид был доступен:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr "URL трэкера"
+msgstr "Адрес трекера"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -60,17 +60,30 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Повторить анонс принудительно"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Вы хотели бы сделать %1 торрент-клиентом по умолчанию?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Предлагать %1 в качестве стандартного торрент-клиента"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Сделать %1 торрент-клиентом по умолчанию"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Пожалуйста, используйте %2системные настройки приложений по-умолчанию%3 для "
+"назначения %1 торрент-клиентом по-умолчанию"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +96,10 @@ msgstr "Ассоциировать с торрент-файлами"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Введите ссылку или выберите торрент-файл"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Перетащите ссылку или торрент-файл"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -131,6 +148,10 @@ msgstr "Включить список предопределённых трек�
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Настройки БитТоррент"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "Использовать перенаправление портов с помощью UPnP / NAT-PMP"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

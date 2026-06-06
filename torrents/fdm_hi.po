@@ -60,17 +60,28 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr ""
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "क्या आप %1 को डिफ़ॉल्ट टोरेंट क्लाइंट बनाना चाहेंगे?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "जाँचें कि %1 आपका डिफ़ॉल्ट टोरेंट क्लाइंट है या नहीं"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "%1 को डिफ़ॉल्ट टोरेंट क्लाइंट बनाएँ"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +94,10 @@ msgstr "टोरेंट फ़ाइलों के साथ संबद�
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "URL दर्ज करें या टोरेंट फ़ाइल चुनें"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -131,6 +146,10 @@ msgstr ""
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "BitTorrent सेटिंग्स"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

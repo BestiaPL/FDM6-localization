@@ -18,23 +18,23 @@ msgstr "트래커 추가"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr "피어"
+msgstr "피어:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr "시드"
+msgstr "시드:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr "유효성"
+msgstr "유효성:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr "마지막 확인 완료"
+msgstr "마지막 확인 완료:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr "트래커 URL"
+msgstr "URL 트래커"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -46,11 +46,11 @@ msgstr "트래커 추가"
 
 msgctxt "DownloadContextMenu|"
 msgid "Start all seeding downloads"
-msgstr "모든 시딩 다운로드 시작"
+msgstr "모든 시드 다운로드 시작"
 
 msgctxt "DownloadContextMenu|"
 msgid "Stop all seeding downloads"
-msgstr "모든 시딩 다운로드 중지"
+msgstr "모든 시드 다운로드 중지"
 
 msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
@@ -58,19 +58,30 @@ msgstr "업로드 비율 제한 무시"
 
 msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
-msgstr "강제 재공지"
+msgstr "강제로 다시 알림"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "%1을 기본 토렌트 클라이언트로 설정하시겠습니까?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "%1이 기본 토렌트 클라이언트인지 확인"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "%1을 토렌트 클라이언트로 설정"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr "%2기본 앱 시스템 설정%3을 사용하여 %1을 기본 토렌트 클라이언트로 설정하세요"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +94,10 @@ msgstr "토렌트 파일과 연결"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "URL을 입력하거나 토렌트 파일을 선택"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "URL 또는 토렌트 파일을 끌어다 놓기"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -98,7 +113,7 @@ msgstr "시딩"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
-msgstr "다운로드가 완료되면 .torrent 파일을 자동 삭제"
+msgstr "다운로드가 완료되면 .torrent 파일 자동 삭제"
 
 msgctxt "Settings|"
 msgid "Monitor folder for new .torrent files"
@@ -131,6 +146,10 @@ msgstr "미리 정의된 추적기 목록 사용"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "BitTorrent 설정"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "UPnP / NAT-PMP 포트 포워딩 사용"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

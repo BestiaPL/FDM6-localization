@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "О программе"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "Версия: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "Дата сборки: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "удалённое управление"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "версия %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "ОК"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "Версия %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "ОК"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "Добавить ссылку на зеркало"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "Добавить метку"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "Уведомлять о неудачных загрузках через Центр Уведомлений"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "Уведомлять о загрузках, только когда окно %1 неактивно"
@@ -146,6 +157,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "Интерфейс"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -154,6 +166,10 @@ msgstr "Оставлять работать %1 в фоне при нажатии
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Открывать/скрывать нижнюю панель по щелчку на загрузку"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Не показывать иконку в доке"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -186,6 +202,20 @@ msgstr "Аргументы:"
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "Аргументы должны содержать переменную %path%"
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "Решение проблем"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr "Включить логирование"
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "Требуется перезапуск"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -280,13 +310,131 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Расширенные настройки"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Выбор темы"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Выбрать"
 
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Светлая тема будет использована, если системная тема неизвестна."
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "All"
+msgstr "Все"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Downloads only"
+msgstr "Только загрузки"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Uploads only"
+msgstr "Только раздачи"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Completed"
+msgstr "Завершенные"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Stopped"
+msgstr "Остановленные"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "Файлы отсутствуют"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "Все файлы"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "Активные"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "Завершенные"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "Незавершённые"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr "Фильтр"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Файлы отсутствуют"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Все файлы"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Активные"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Завершенные"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Незавершённые"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr "Поиск по загрузкам..."
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Сортировка"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Old"
+msgstr "Старые"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Newest"
+msgstr "Новейшие"
+
+#. sort by title mode
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By size: small"
+msgstr "По размеру: маленькие"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By size: large"
+msgstr "По размеру: большие"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By status: ascending"
+msgstr "По статусу: по возрастанию"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By status: descending"
+msgstr "По статусу: по убыванию"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -348,10 +496,12 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "Уведомления"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 требуется это разрешение для сохранения скачиваемых файлов."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
@@ -360,26 +510,32 @@ msgstr ""
 "%1 требуется это разрешение для показа прогресса скачивания в системной "
 "панели уведомлений."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "Невозобновляемые загрузки (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "Перенос файлов (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "Конвертация файлов в mp3 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "Конвертация файлов в mp4 (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "Переименование файлов (%1)."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "Объединение мультимедийных потоков (%1)."
@@ -388,14 +544,24 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "Удаление файлов."
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "Отмена"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "Выполняются операции, которые не могут быть возобновлены"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "Удалённое подключение к %1 (%2)…"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "Удалённое получение данных с %1 (%2)…"
@@ -404,14 +570,21 @@ msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Сбой."
 
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Выбрано: %1"
+
 msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "Необходима авторизация"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 требуется авторизация"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Сайт сообщает: «%1»."
@@ -440,6 +613,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "Необходима авторизация"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "Сайт сообщает: «%1»."
@@ -472,6 +646,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "ОК"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "Сайт сообщает: «%1»."
@@ -564,6 +739,10 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "Вставить"
 
+msgctxt "BatchLanguage|"
+msgid "Language"
+msgstr "Язык"
+
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
 msgstr "Макс. качество видео:"
@@ -572,6 +751,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "кбит/с"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "С %1 %2 до %3 %4"
@@ -656,6 +836,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "НЕТ"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "Назад в %1"
@@ -676,10 +857,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "Добавить закладку"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "Скачать расширение %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 не установлен"
@@ -688,6 +871,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "Интеграция с браузерами"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -701,7 +885,7 @@ msgid "Other supported browsers"
 msgstr "Другие поддерживаемые браузеры"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "Автоматически перехватывать ссылки из браузеров"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -733,13 +917,14 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "Вы уверены, что это правильное расширение файла?"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "Не перехватывать загрузки размером меньше, чем"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Мбайт"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Загружать в браузере при отмене загрузки в %1"
@@ -748,6 +933,11 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "Не перехватывать при нажатой клавише INSERT"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr "Перехватывать файлы с расширениями"
+
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -778,8 +968,9 @@ msgstr "(браузер не установлен)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr "N/A"
+msgstr "Н/Д"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(подсоединено: %1)"
@@ -836,6 +1027,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "Дополнительные настройки"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "Текущий порт: %1"
@@ -883,29 +1075,38 @@ msgid "OK"
 msgstr "ОК"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Добавить загрузку"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Скачать"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "ОК"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Сообщить о проблеме"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Загрузка с этого сайта запрещена"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Добавить загрузку"
 
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Скачать"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "ОК"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Добавить загрузку"
+
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "Прокси %1 запрашивает логин и пароль."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 запрашивает ваш логин и пароль."
@@ -918,6 +1119,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "Выберите ссылку"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "Вы можете выбрать не более %1 ссылок за один раз"
@@ -950,6 +1152,14 @@ msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "Скачать"
 
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr "Имя подкаталога не должно быть пустым"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr "Имя файла не должно быть пустым"
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "Изменить ссылку"
@@ -958,6 +1168,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "Введите новую ссылку"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "Расположение файла: %1"
@@ -990,6 +1201,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "Введите новую ссылку"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "Расположение файла: %1"
@@ -1016,6 +1228,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "Удалённое подключение к %1"
@@ -1024,6 +1237,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(бета-версия)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "Здесь вы можете подключиться к %1, запущенному на другом устройстве."
@@ -1032,10 +1246,12 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "Автоматически подключаться при запуске"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "Пожалуйста, введите %1 или <a href='#'>отсканируйте QR-код</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
@@ -1044,6 +1260,7 @@ msgstr ""
 "%1 и QR-код находятся на странице настроек %2, к которому вы собираетесь "
 "подключиться."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "Автоматически подключаться к %1 при запуске"
@@ -1056,6 +1273,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "ОК"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
@@ -1075,6 +1293,26 @@ msgid "Port"
 msgstr "Порт"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Число соединений"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "Соединений нет"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Хост"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Порт"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Число соединений"
 
@@ -1130,6 +1368,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "Не удалось запустить."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "Ошибка: %1"
@@ -1138,6 +1377,15 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "ОК"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr "Сегодня"
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr "Вчера"
+
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
@@ -1145,6 +1393,7 @@ msgstr ""
 "Произошла внутренняя ошибка.<br>%1 необходимо перезапустить для дальнейшего "
 "использования."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "Перезагрузить %1 автоматически"
@@ -1173,6 +1422,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "Создать портативную версию"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1209,10 +1459,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "ОК"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "Создание %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "В процессе создания портативной версии произошла ошибка: %1"
@@ -1341,14 +1593,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Прервать"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (Место на диске: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "Место на диске: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "Размер: %1"
@@ -1356,6 +1611,19 @@ msgstr "Размер: %1"
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Показывать общую скорость отдачи на значке в доке"
+
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr "Вы помогаете нам расти и развиваться"
+
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr "Сделаем %1 лучше"
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
+msgstr "Предложить и поддержать"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
@@ -1391,6 +1659,13 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Закрыть"
 
+#, fuzzy
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "Осталось"
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1405,7 +1680,7 @@ msgstr "Адрес источника:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
-msgstr "Сохранить в"
+msgstr "Сохранено в"
 
 msgctxt "DownloadWindow|"
 msgid "File size"
@@ -1431,6 +1706,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "Загружено"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1497,7 +1774,7 @@ msgstr "Конвертация в mp4"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "Подсчёт хэша"
+msgstr "Вычисляется хэш"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1507,6 +1784,59 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Диск отсутствует"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Проверка файлов"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Слияние медиапотоков"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Запрос информации"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "В очереди"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Остановлено"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Завершено"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "н/д"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "дубликаты (%1)"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "некорректные (%1)"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "неподдерживаемые (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "Пропущенные закачки"
+
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "Ссылки загрузок (%1 выбрано)"
@@ -1531,6 +1861,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "Не найдено результатов по запросу"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "Загрузки с меткой «%1» не найдены"
@@ -1551,9 +1882,15 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "Список загрузок пуст. Добавьте новую ссылку для скачивания."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "Удалённое подключение к %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Поиск"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1575,10 +1912,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "Сразу"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "Через"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "дн."
@@ -1655,6 +1994,38 @@ msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "Отдача приостановлена"
 
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "Имя"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "Скачивание"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr "Раздача"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "Добавлено"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr "Осталось"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "Остановлено"
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "Приоритет"
@@ -1690,18 +2061,6 @@ msgstr "Показать загрузки"
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
 msgstr "Выбрать файлы..."
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Высокий"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Обычный"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Низкий"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
@@ -1795,6 +2154,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "Последовательная загрузка"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr "Поделиться файлом"
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Убрать из списка"
@@ -1830,6 +2193,18 @@ msgstr "Остановлено"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Размер файла неизвестен"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "Остановлено"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr "Осталось"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1945,6 +2320,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "Все файлы (%1)"
@@ -1957,6 +2333,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "Экспорт"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "Файлы загрузок %1 (%2)"
@@ -1969,6 +2346,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "Список ссылок"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "Текстовые файлы (%1)"
@@ -1977,6 +2355,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "Файл CSV"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "Файлы CSV (%1)"
@@ -1989,10 +2368,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "Файлы настроек %1 (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "Все файлы (%1)"
@@ -2005,6 +2386,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "Хэш-сумма"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "Подсчёт %1%"
@@ -2049,6 +2431,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "Хэш-сумма"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "Подсчёт %1%"
@@ -2077,6 +2460,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "Имя файла"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "Файлы %1 (*.%2)"
@@ -2125,6 +2509,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "По убыванию"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Сортировка"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Старые"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Новейшие"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "По размеру: маленькие"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "По размеру: большие"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Тип файла:"
@@ -2137,6 +2556,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "Запомнить мой выбор для всех загрузок"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "Переименовать (%1)"
@@ -2229,6 +2649,52 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "Конвертировать в mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "Имя"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "Завершено"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "Обычный"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "Высокий"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "Низкий"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "Завершено"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Имя"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Приоритет"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "Макросы"
@@ -2236,10 +2702,6 @@ msgstr "Макросы"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "Основные"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "Выберите тему"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2254,8 +2716,20 @@ msgid "Suggest folders based on file type"
 msgstr "Предлагать папку сохранения на основе типа файла"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr "Тема"
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "Будет использована светлая тема, если системная тема неизвестна."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr "Стиль интерфейса"
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr "Классический"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2264,6 +2738,14 @@ msgstr "Вашего языка нет в списке или перевод н�
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "Давайте это исправим!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "Параметры"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "Запускать при старте системы (в свёрнутом виде)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2313,10 +2795,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "Сразу"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "Через"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "дн."
@@ -2349,6 +2833,14 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "Автоматически устанавливать обновления"
 
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr "Помечать скачиваемые файлы"
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "Новый"
+
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
 msgstr "Автоматически проверять на наличие обновлений"
@@ -2370,6 +2862,30 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "За использование сотовых данных в роуминге может взиматься дополнительная "
 "плата."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Выбор темы"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Будет использована светлая тема, если системная тема неизвестна."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Стиль интерфейса"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Новый"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Классический"
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2423,6 +2939,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "Добавлено:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 из %2"
@@ -2438,6 +2955,58 @@ msgstr "Добавлено:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "Прогресс:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "Загружено:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "Отдано"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "рейтинг"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "Добавлено:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "Скорость загрузки:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "Скорость отдачи:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "Веб-страница"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "Файл"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "Приоритет"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "Осталось"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "Сохранено в"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Прогресс"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2463,22 +3032,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "Все файлы (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "Текстовые файлы (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "Файлы загрузок %1 (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "Файлы настроек %1 (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "Ошибка: %1"
@@ -2491,6 +3065,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "Не удалось вставить ссылки из файла"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "Не удалось импортировать список ссылок из файла: %1"
@@ -2499,6 +3074,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "Экспорт не удался"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "Не удалось экспортировать в файл: %1"
@@ -2507,6 +3083,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "Импорт не удался"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "Не удалось импортировать из файла: %1"
@@ -2527,41 +3104,17 @@ msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "Язык"
 
+msgctxt "LanguageSelection|"
+msgid "Language"
+msgstr "Язык"
+
+msgctxt "LanguageSelection|"
+msgid "Unknown"
+msgstr "Неизвестно"
+
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "удалённое управление"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Браузер"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Настройки"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Служба поддержки"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Отправить отчёт об ошибке"
-
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Отключить удалённый %1"
-
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "Удалённое подключение к %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "О приложении"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Выход"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2579,6 +3132,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - тип содержимого (например, «Музыка»)"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - имя сервера (например, «%1»)"
@@ -2622,10 +3176,6 @@ msgstr "Завершённые"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "Незавершённые"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "Удалить метку?"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -2691,10 +3241,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "Выключение"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "Отключить удалённый %1"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "Удалённое подключение к %1"
@@ -2715,6 +3267,53 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Выход"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr "Меню"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Браузер"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Настройки"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Служба поддержки"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Отправить отчёт об ошибке"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Отключить удалённый %1"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "Удалённое подключение к %1"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr "Поддержать разработку"
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "О программе"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Выход"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Режим «Улитка» высвобождает все ресурсы сети без отмены загрузок."
@@ -2723,6 +3322,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "Режим «Улитка»"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2733,6 +3333,46 @@ msgstr[2] "%n загрузок выбрано."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Общий размер:"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "Без ограничений"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "Режим Улитка высвобождает все ресурсы сети без отмены загрузок."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "Режим Улитка"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr "Установить режим использования траффика"
+
+#, qt-format
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n загрузка выбрана."
+msgstr[1] "%n загрузки выбраны."
+msgstr[2] "%n загрузок выбрано."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "Общий размер:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
+"Режим Улитки переводит активные загрузки в спящий режим, максимально "
+"освобождая полосу интернета. После его отключения все активные загрузки "
+"возобновятся с обычной скоростью. Режим Улитки особенно полезен в тех "
+"случаях, когда, например, нужно сделать звонок при низкой скорости интернета."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -2782,6 +3422,46 @@ msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "удалённое управление"
 
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr "Выбрать"
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "Сортировка"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr "Фильтры"
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "Начать"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "Остановить"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr "Переместить файлы"
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "Добавить загрузку"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr "Меню и настройки"
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "Переключиться на пользовательскую сортировку списка загрузки?"
+
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
 msgstr "Без ограничений"
@@ -2814,6 +3494,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr "Готов к началу воспроизведения"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr "%1 готов к началу воспроизведения"
@@ -2850,6 +3531,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "Пропустить"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "Пропустить все (%1)"
@@ -2890,10 +3572,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "Перемещение загрузки не удалось"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "Ошибка: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "Не удалось переместить: %1"
@@ -3022,6 +3706,11 @@ msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "Путь содержит недопустимые символы"
 
+#, fuzzy
+msgctxt "MySearchField|"
+msgid "Search"
+msgstr "Поиск"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Проверка обновлений…"
@@ -3103,6 +3792,10 @@ msgid "Configure manually:"
 msgstr "Ручная настройка:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "Ручная настройка"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
 msgstr "Адрес"
 
@@ -3132,7 +3825,7 @@ msgstr "SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "Некорректные настройки прокси"
+msgstr "Недопустимые настройки прокси"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
@@ -3206,8 +3899,9 @@ msgstr "Разные уведомления"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr "Готов к началу воспроизведения"
+msgstr "Готов к воспроизведению"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "Для работы %1 требуются разрешения"
@@ -3256,10 +3950,21 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "Соединения"
 
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "ОК"
+
+#. Browse for a file
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr "Выбрать..."
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr "Начать воспроизведение файла пока он ещё качается"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "Вам нравится дополнение %1?"
@@ -3269,12 +3974,13 @@ msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr "Мы просим вас помочь этому дополнению привлечь больше пользователей."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
-"Пожалуйста, расскажите другим людям с помощью ваших любимых социальные сетей "
+"Пожалуйста, расскажите другим людям с помощью ваших любимых социальных сетей "
 "и форумов о %1 и %2."
 
 msgctxt "PluginBannerDialog|"
@@ -3298,24 +4004,45 @@ msgid "Add-ons"
 msgstr "Дополнения"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Проверить наличие обновлений"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "Установить дополнение из файла…"
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
+msgid "Update add-ons automatically"
 msgstr "Автоматически обновлять дополнения"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
 msgstr "Вернуть автообновление для всех дополнений"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr "Разрешить дополнениям использовать куки веб браузера"
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
 msgstr "Обновление установленных дополнений…"
+
+msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr "Опции разработчика"
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr "Разрешить расширениям без подписи доступ к внешним директориям"
+
+#, fuzzy
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "Требуется перезапуск"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr "Скрыть опции разработчика"
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
@@ -3325,6 +4052,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "Установить дополнение из файла"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Узнать больше о дополнениях %1"
@@ -3337,6 +4065,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "Файлы дополнений %1"
@@ -3369,6 +4098,7 @@ msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
 msgstr "Нет следующих необходимых компонентов:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 необходим."
@@ -3393,10 +4123,12 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "Внимание!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "Новая версия %1 дополнения запрашивает небезопасные разрешения:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "Новая версия %1 дополнение запрашивает небезопасное разрешение:"
@@ -3409,14 +4141,16 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "Вы хотите продолжить процесс установки?"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
-"Новая версия %1 дополнения требует наличие дополнительных компонентов:\n"
+"Новая версия %1 дополнения требует дополнительные компоненты:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "Новая версия %1 дополнения требует %2."
@@ -3430,11 +4164,11 @@ msgid "Would you like to install it?"
 msgstr "Вы хотите установить его?"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "Разрешить автоматические обновления"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "Проверить наличие обновлений"
 
 msgctxt "PluginsViewItem|"
@@ -3445,6 +4179,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Обновление…"
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "Версия: %1"
@@ -3473,6 +4208,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "Пользовательское соглашение"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3493,6 +4229,10 @@ msgstr "Отправить отчёт"
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "Отмена"
+
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr "н/д"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3533,6 +4273,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "Не удалось инициализировать менеджер состояния приложения."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3546,13 +4287,20 @@ msgid "Enter URL"
 msgstr "Введите ссылку"
 
 msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr "Перетащите ссылку"
+
+#, qt-format
+msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "Извините, это устройство не поддерживается %1."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "Не удалось инициализировать %1. Пожалуйста, переустановите."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "Причина: %1"
@@ -3569,6 +4317,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Открыть главное окно"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "О программе %1"
@@ -3578,73 +4327,99 @@ msgid "Quit"
 msgstr "Выход"
 
 msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "Настройки…"
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "Проверка обновлений..."
+
+#, qt-format
+msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 Б"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 КБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 МБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 ГБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 ТБ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 Г"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 Т"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 Б/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 КБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 МБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 ГБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 ТБ/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 К/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 М/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 Г/с"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 Т/с"
@@ -3713,6 +4488,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "Неизвестная ошибка ввода-вывода файла"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "Ошибка HTTP %1"
@@ -3871,7 +4647,7 @@ msgstr "c HTTP на HTTPS"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "Истёк ли срок действия маркера"
+msgstr "Токен истёк или недопустим"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
@@ -3939,7 +4715,7 @@ msgstr "Не поддерживается"
 
 msgctxt "QObject|"
 msgid "Invalid parameter"
-msgstr "Некорректный параметр"
+msgstr "Неверный параметр"
 
 msgctxt "QObject|"
 msgid "Unsupported format"
@@ -3952,6 +4728,14 @@ msgstr "Не найдено"
 msgctxt "QObject|"
 msgid "Incompatible version"
 msgstr "Несовместимая версия"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "Проверка безопасности не прошла"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "Уже существует"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -4037,6 +4821,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "Не удалось удалить текущую версию"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "ошибка hdiutil %1"
@@ -4049,18 +4834,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "Ошибка проверки подписи."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "Скачать с %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "Скачать всё с %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "Скачать выбранные загрузки с %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "Скачать видео с %1"
@@ -4077,6 +4866,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "Недостаточно места на диске."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4091,6 +4881,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "Неустранимая ошибка: не удалось загрузить базу данных."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4153,14 +4944,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "Файлы были изменены"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%1 от неизвестного в %2"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "%1 от %2 в %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 или выше"
@@ -4174,6 +4970,10 @@ msgid "Allows to execute arbitrary code."
 msgstr "Позволяет выполнять произвольный код."
 
 msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr "Запустить Deno (JavaScript рантайм)"
+
+msgctxt "QObject|"
 msgid "Installing..."
 msgstr "Установка…"
 
@@ -4185,10 +4985,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "Недостающие компоненты"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 необходимы"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 необходим"
@@ -4205,6 +5007,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Открыть папку"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr "Ошибка проверки безопасности."
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr "Некорректная версия."
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr "%1 вернул ненулевой (%2) код завершения"
@@ -4223,7 +5034,7 @@ msgstr "Можно открыть файлы gzip для чтения или з�
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "Операция gzopen() для файла не может быть выполнена"
+msgstr "Невозможно выполнить операцию gzopen() для файла"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
@@ -4233,6 +5044,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QIODevice::ReadWrite не поддерживается для QuaZIODevice"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "Ошибка ZIP/UNZIP API %1"
@@ -4257,6 +5069,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(бета-версия)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "Разрешить удалённый доступ к %1 на этом устройстве"
@@ -4333,6 +5146,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "Сообщить о проблеме"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "К сожалению, отчёт не отправлен, произошла ошибка: %1"
@@ -4473,14 +5287,11 @@ msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
 msgstr "Укажите дни недели, чтобы включить планировщик"
 
-msgctxt "SearchField|"
-msgid "Search"
-msgstr "Поиск"
-
 msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "Поиск"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "Выбрано: %1"
@@ -4618,6 +5429,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "ОК (%1)"
@@ -4670,6 +5482,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL-сертификат недействителен."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr "Отпечатки %1 ключа"
@@ -4690,7 +5503,9 @@ msgctxt "SslDialog|"
 msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
-msgstr "Если вы доверяете этому узлу, выберите Принять, чтобы запомнить ключ и продолжить подключение."
+msgstr ""
+"Если вы доверяете этому узлу, выберите Принять, чтобы запомнить ключ и "
+"продолжить подключение."
 
 msgctxt "SslDialog|"
 msgid "Accept"
@@ -4784,6 +5599,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "Эл. почта"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "Прикрепить файлы журналов %1 (рекомендуется)"
@@ -4805,6 +5621,51 @@ msgid "Submitting"
 msgstr "Отправляется"
 
 msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr "Отправить"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Отправить отчёт об ошибке"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Заголовок"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Описание"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Имя"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "Эл. почта"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Прикрепить файлы журналов %1 (рекомендуется)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Обязательные поля"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Отправляется"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
 msgid "Submit"
 msgstr "Отправить"
 
@@ -4929,8 +5790,53 @@ msgid "Restart is required"
 msgstr "Требуется перезапуск"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr "Аварийно завершить приложение"
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "Скрыть"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr "Включить лонирование механизма управления закачками"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Низкий"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Средний"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Высокий"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr "Улитка"
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr "Режим использования траффика"
+
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Режим «Улитка»"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr "Максимально освободить интернет соединение без остановки закачек"
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Изменить ограничения трафика"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
@@ -4944,6 +5850,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "без ограничений"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "Загрузка: %1, Отдача: %2"
@@ -4996,17 +5903,22 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Изменить ограничения трафика"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr "Без ограничения скорости"
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr "Максимум параллельных закачек"
+
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr "Требуется значение больше %1"
+msgstr "Требуется значение не больше %1"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Новая загрузка"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Новый файл"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5028,17 +5940,78 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "Нет доступа на запись в выбранный каталог"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "Размер: %1 (место на диске: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "Место на диске: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Размер: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Новый файл"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Скачать"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Новый файл"
+
+msgctxt "UiCoreBase|"
+msgid "Support the project"
+msgstr "Поддержать проект"
+
+#, fuzzy, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
+msgstr "Спасибо, что используете %1!"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "Высокий"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "Низкий"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "Обычный"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr "Установлена классическая версия интерфейса."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "Установлена новая версия интерфейса."
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "ОК"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr "Переключить на новую версию интерфейса"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "Переключить на классическую версию интерфейса"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5060,6 +6033,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "Доступна новая версия"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "Новое в %1"
@@ -5068,6 +6042,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "Обновить"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "Установлена последняя версия %1"
@@ -5104,6 +6079,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "Возникла ошибка во время установки:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "Перезапустить %1 для обновления"
@@ -5124,6 +6100,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "Качество:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "Нравится %1?"
@@ -5138,7 +6115,7 @@ msgstr "Да!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "Спасибо за поддержку! Пожалуйста, оцените приложение на Google Play."
+msgstr "Спасибо за поддержку! Пожалуйста, оцените приложение в Google Play."
 
 msgctxt "VoteBlock|"
 msgid "Later"
@@ -5160,10 +6137,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "Загрузка"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "Подключение к %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "Ошибка: %1"
@@ -5184,6 +6163,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "Доступна новая версия"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "Новое в %1"
@@ -5192,14 +6172,28 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "Обновить"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "К сожалению, отчёт не был отправлен, произошла ошибка: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "Отчёт отправлен. Спасибо за сотрудничество!"
+msgstr "Отчёт отправлен. Благодарим вас за сотрудничество!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "Удалённое подключение к %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "Добавить загрузку"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "Новая загрузка"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "Удалить метку?"

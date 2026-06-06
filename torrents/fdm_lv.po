@@ -60,17 +60,28 @@ msgctxt "DownloadContextMenu|"
 msgid "Ignore upload ratio limit"
 msgstr "Ignorēt augšupielādes attiecības ierobežojumu"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Vai vēlies padarīt %1 par noklusējuma torrent klientu?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Pārbaudiet, vai %1 ir jūsu noklusējuma torrent klients"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Padarīt %1 par noklusējuma torrent klientu"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "seeding"
@@ -91,6 +102,10 @@ msgstr "Asociēt ar torrent failiem"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Ievadi URL vai izvēlies torrent failu"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -132,6 +147,10 @@ msgstr "Izmantot sistēmas noteikto portu ienākošiem savienojumiem"
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
 msgstr "Iespējot sarakstu ar jau definētiem izsekotājiem"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

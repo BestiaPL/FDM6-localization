@@ -18,23 +18,23 @@ msgstr "Добавяне на тракери"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr ""
+msgstr "Пиъри:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr ""
+msgstr "Сийдъри:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr ""
+msgstr "Наличност:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr ""
+msgstr "Последно видян в пълен вид:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr ""
+msgstr "URL адрес на тракера"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -60,17 +60,30 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Принудително повторно обявяване"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Желаете ли да направите %1 торент клиент по подразбиране?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Проверяване дали %1 е торент клиент по подразбиране"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Задаване на %1 като торент клиент по подразбиране"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Използвайте %2Default apps system settings%3 да зададете %1 като торент "
+"клиент по подразбиране"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +96,10 @@ msgstr "Асоцииране с торент файлове"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Въведете URL или изберете торент файл"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Пуснете с мишката тук URL или торент файл"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -132,6 +149,10 @@ msgstr "Активиране на списък с предварително д�
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Настройки на BitTorrent"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "Използване на UPnP / NAT-PMP пренасочване на портове"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

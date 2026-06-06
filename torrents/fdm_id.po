@@ -60,17 +60,28 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Paksa untuk reannounce"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Apakah Anda berminat menjadikan %1 sebagai klien torrent yang utama?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Pastikan jika %1 adalah klien utama Anda"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Jadikan %1 klien torrent yang utama"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -85,6 +96,10 @@ msgid "Enter URL or choose torrent file"
 msgstr "Isikan URL atau pilih berkas torrent"
 
 msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Tarik-dan lepaskan URL atau berkas torrent"
+
+msgctxt "QObject|"
 msgid "Merge trackers"
 msgstr "Gabungkan pelacak"
 
@@ -94,7 +109,7 @@ msgstr "Torrent"
 
 msgctxt "QObject|"
 msgid "seeding"
-msgstr "Penyemaian"
+msgstr "penyemaian"
 
 msgctxt "Settings|"
 msgid "Automatically delete .torrent files once the download is finished"
@@ -131,6 +146,10 @@ msgstr "Aktifkan daftar pelacak yang telah ditentukan sebelumnya"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Pengaturan BitTorrnt"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

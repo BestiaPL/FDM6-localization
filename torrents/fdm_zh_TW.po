@@ -60,17 +60,28 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "強制重新宣告"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "你希望 %1 成為預設 Torrent 用戶端嗎？"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "檢查 %1 是否為您的預設 Torrent 用戶端"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "將 %1 設為預設 Torrent 用戶端"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +94,10 @@ msgstr "與 Torrent 檔案建立關聯"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "輸入 URL 或選擇 Torrent 檔案"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -131,6 +146,10 @@ msgstr "啟用預先定義的追縱器清單"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "BitTorrent 設定"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr ""
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

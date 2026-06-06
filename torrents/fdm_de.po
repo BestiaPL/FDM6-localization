@@ -60,21 +60,34 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Rückmeldung erzwingen"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
-msgstr "Möchten Sie %1 als Standard-Torrent-Client festlegen?"
+msgstr "Willst du %1 als Standard-Torrent-Client festlegen?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
-msgstr "Prüfen, ob %1 der Standard-Torrent-Client ist"
+msgstr "Prüfe, ob %1 der Standard-Torrent-Client ist"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "%1 als Standard-Torrent-Client festlegen"
 
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Bitte verwende %2Default apps system settings%3, um %1 zum "
+"Standard-Torrent-Client zu machen"
+
 msgctxt "QObject|"
 msgid "Associate with magnet links"
-msgstr "Mit Magnetlinks verknüpfen"
+msgstr "Mit Magnet-Links verknüpfen"
 
 msgctxt "QObject|"
 msgid "Associate with torrent files"
@@ -83,6 +96,10 @@ msgstr "Mit Torrent-Dateien verknüpfen"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "URL eingeben oder Torrent-Datei auswählen"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "URL oder Torrent-Datei ziehen und ablegen"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -118,7 +135,7 @@ msgstr "Local Peer Discovery aktivieren, um mehr Peers zu finden"
 
 msgctxt "Settings|"
 msgid "Enable uTP"
-msgstr "uTP aktivieren"
+msgstr "Aktiviere uTP"
 
 msgctxt "Settings|"
 msgid "Use system defined port for incoming connections"
@@ -126,11 +143,15 @@ msgstr "Systemdefinierten Port für eingehende Verbindungen verwenden"
 
 msgctxt "Settings|"
 msgid "Enable list of predefined trackers"
-msgstr "Liste vordefinierte Tracker aktivieren"
+msgstr "Liste vordefinierter Tracker aktivieren"
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "BitTorrent-Einstellungen"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "UPnP / NAT-PMP Portweiterleitung verwenden"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

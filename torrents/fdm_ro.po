@@ -18,23 +18,23 @@ msgstr "Adăugați trackere"
 
 msgctxt "BtDetailsTab|"
 msgid "Peers:"
-msgstr ""
+msgstr "Colegi:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr ""
+msgstr "Donatori:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
-msgstr ""
+msgstr "Disponibilitate:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr ""
+msgstr "Ultima dată văzut complet:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
-msgstr ""
+msgstr "URL Tracker"
 
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
@@ -60,17 +60,30 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Reanunțare forțată"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Doriți să faceți din %1 clientul torrent implicit?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Verificați dacă %1 este clientul dumneavoastră torrent implicit"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Faceți %1 client torrent implicit"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Vă rugăm să utilizați %2Default apps system settings%3 pentru a face din %1 "
+"clientul torrent implicit"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +96,10 @@ msgstr "Asociați fișierele torrent"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Introduceți adresa URL sau alegeți fișierul torrent"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Drag-and-drop URL sau fișier torrent"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -132,6 +149,10 @@ msgstr "Activați lista de trackere predefinite"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Setări BitTorrent"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "Utilizați redirecționarea porturilor UPnP / NAT-PMP"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

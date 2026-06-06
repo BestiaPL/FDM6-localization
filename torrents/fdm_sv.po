@@ -60,16 +60,27 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr ""
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr ""
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Kontrollera om %1 är din standard torrent-klient"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
+msgstr ""
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
 msgstr ""
 
 msgctxt "QObject|"
@@ -82,6 +93,10 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
 msgstr ""
 
 msgctxt "QObject|"
@@ -130,6 +145,10 @@ msgstr ""
 
 msgctxt "Settings|"
 msgid "BitTorrent settings"
+msgstr ""
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
 msgstr ""
 
 msgctxt "SettingsPage|"

@@ -60,17 +60,30 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Forçar novo anúncio"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Gostaria de tornar o %1 o cliente torrent padrão?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Verificar se o %1 é o cliente torrent padrão"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Tornar %1 o cliente torrent padrão"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Use as %2configurações de aplicativos padrão do sistema%3 para tornar o %1 o "
+"cliente de torrent padrão"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +96,10 @@ msgstr "Associar a arquivos torrent"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Digite o URL ou escolha o arquivo torrent"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Arraste e solte um URL ou arquivo torrent"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -132,6 +149,10 @@ msgstr "Ativar lista de rastreadores predefinidos"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Configurações do BitTorrent"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "Usar encaminhamento de porta UPnP / NAT-PMP"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

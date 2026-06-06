@@ -22,7 +22,7 @@ msgstr "Kişi:"
 
 msgctxt "BtDetailsTab|"
 msgid "Seeds:"
-msgstr "Gönderim:"
+msgstr "Gönderme:"
 
 msgctxt "BtDetailsTab|"
 msgid "Availability:"
@@ -60,17 +60,30 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Yeniden duyurmaya zorla"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "%1'yi varsayılan torrent istemcisi yapmak ister misiniz?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "%1'nin varsayılan torrent istemciniz olup olmadığını denetle"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "%1'yi varsayılan torrent istemcisi yap"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"%1'yi varsayılan torrent istemcisi yapmak için lütfen %2Varsayılan "
+"uygulamalar sistem ayarları%3'nı kullanın"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +96,10 @@ msgstr "Torrent dosyaları ile ilişkilendir"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "URL girin veya torrent dosyasını seçin"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "URL'yi veya torrent dosyasını sürükleyin ve bırakın"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -131,6 +148,10 @@ msgstr "Önceden tanımlanmış izleyicilerin listesini etkinleştir"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "BitTorrent ayarları"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "UPnP / NAT-PMP bağlantı noktası yönlendirmeyi kullan"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"

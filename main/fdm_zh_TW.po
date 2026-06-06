@@ -12,14 +12,18 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "關於"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "版本: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
 msgstr "建置日期: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
 msgstr "© %1, %2-%3"
@@ -28,6 +32,7 @@ msgctxt "AboutDialog|"
 msgid "remote control"
 msgstr "遠端控制"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "版本 %1"
@@ -36,6 +41,7 @@ msgctxt "AboutDialog|"
 msgid "OK"
 msgstr "確定"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "版本 %1 (%2)"
@@ -71,6 +77,10 @@ msgstr "確定"
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "輸入鏡像 URL"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "新增標籤"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -108,6 +118,7 @@ msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
 msgstr "透過通知中心通知我失敗的下載項目"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
 msgstr "僅在 %1 視窗不在前景時通知我"
@@ -144,6 +155,7 @@ msgctxt "AdvancedSettings|"
 msgid "Interface"
 msgstr "介面"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
@@ -152,6 +164,10 @@ msgstr "點擊關閉按鈕以隱藏 %1 並在背景保持運行"
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "按一下下載以開啟/隱藏底部面板"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -184,6 +200,20 @@ msgstr "參數:"
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "參數必須包含 %path% 變數"
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "疑難排解"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "必需重啟"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
@@ -277,13 +307,122 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "進階設定"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "選擇佈景主題"
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
 
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "系統佈景主題未知時，將使用淺色主題。"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "All"
+msgstr "全部"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Downloads only"
+msgstr ""
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Uploads only"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Completed"
+msgstr "已完成"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "遺失檔案"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "全部檔案"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "進行中"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "已完成"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "未完成"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "遺失檔案"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "全部檔案"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "進行中"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "已完成"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "未完成"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Old"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Newest"
+msgstr ""
+
+#. sort by title mode
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By size: large"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By status: ascending"
+msgstr ""
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By status: descending"
+msgstr ""
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
@@ -345,36 +484,44 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
 msgstr "通知"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr "%1 需要權限以將下載的檔案儲存到本機儲存空間。"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr "%1 需要權限以將下載進度顯示於系統通知面板。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
 msgstr "不支援暫停續傳 (%1)。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
 msgstr "正在移動檔案 (%1)。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
 msgstr "正在轉換檔案為 mp3 格式 (%1)。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
 msgstr "正在轉換檔案為 mp4 格式 (%1)。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
 msgstr "正在重新命名檔案 (%1)。"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
 msgstr "正在合併媒體串流 (%1)。"
@@ -383,14 +530,24 @@ msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
 msgstr "正在刪除檔案。"
 
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "確定"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "取消"
+
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
 msgstr "正在執行的作業沒有續傳功能"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
 msgstr "正在連線至遠端 %1 (%2)…"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
 msgstr "正在從遠端 %1 (%2) 取得資料…"
@@ -399,14 +556,21 @@ msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "失敗。"
 
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "已選取: %1"
+
 msgctxt "AuthDialog|"
 msgid "Authentication required"
 msgstr "需要驗證"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
 msgstr "%1 需要驗證"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
 msgstr "網站回應:「%1」"
@@ -435,6 +599,7 @@ msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
 msgstr "需要驗證"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
 msgstr "網站回應:「%1」"
@@ -467,6 +632,7 @@ msgctxt "AuthenticationPage|"
 msgid "OK"
 msgstr "確定"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
 msgstr "網站回應:「%1」"
@@ -559,6 +725,10 @@ msgctxt "BaseTextField|"
 msgid "Paste"
 msgstr "貼上"
 
+msgctxt "BatchLanguage|"
+msgid "Language"
+msgstr "語言"
+
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
 msgstr "最大影片品質:"
@@ -567,6 +737,7 @@ msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "kbps"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "從 %1 %2 至 %3 %4"
@@ -651,6 +822,7 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "否"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
 msgstr "回到 %1"
@@ -671,10 +843,12 @@ msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
 msgstr "新增書籤"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
 msgstr "下載 %1 擴充功能"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 尚未安裝"
@@ -683,6 +857,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
 msgstr "瀏覽器整合"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
@@ -694,7 +869,7 @@ msgid "Other supported browsers"
 msgstr "其他支援的瀏覽器"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
+msgid "Automatically capture downloads from browsers"
 msgstr "自動從瀏覽器擷取下載"
 
 msgctxt "BrowserIntegrationSettings|"
@@ -726,13 +901,14 @@ msgid "Are you sure this is a valid file extension?"
 msgstr "您確定此副檔名有效嗎？"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "不要擷取下載項目，小於"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
 msgstr "Mbytes"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "使用瀏覽器下載透過 %1 取消的項目"
@@ -741,6 +917,11 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
 msgstr "INSERT 鍵按下時不截取"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr ""
+
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -771,6 +952,7 @@ msgctxt "BtDetailsTab|"
 msgid "N/A"
 msgstr "N/A"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
 msgstr "(已連線: %1)"
@@ -827,6 +1009,7 @@ msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "進階"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
 msgstr "目前連接埠: %1"
@@ -873,29 +1056,39 @@ msgid "OK"
 msgstr "確定"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "新增下載"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "下載"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "確定"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "回報問題"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "不允許從此網站中下載"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "新增下載"
 
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "下載"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "確定"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "新增下載"
+
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
 msgstr "代理 %1 需要使用者名稱和密碼。"
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
 msgstr "%1 正在要求您的使用者名稱和密碼。"
@@ -908,6 +1101,7 @@ msgctxt "ButtonsBlock|"
 msgid "Please select download link"
 msgstr "請選取下載連結"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "您可以同時選取多個 %1 連結"
@@ -940,6 +1134,14 @@ msgctxt "ButtonsBlock|"
 msgid "Download"
 msgstr "下載"
 
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr ""
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr ""
+
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
 msgstr "變更下載 URL"
@@ -948,6 +1150,7 @@ msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
 msgstr "輸入新 URL"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "檔案位置: %1"
@@ -980,6 +1183,7 @@ msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "輸入新 URL"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "檔案位置: %1"
@@ -1006,6 +1210,7 @@ msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
 msgstr "連線至遠端 %1"
@@ -1014,6 +1219,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
 msgstr "(測試版)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
 msgstr "在這裡您可以連線到在其他裝置執行的 %1。"
@@ -1022,16 +1228,19 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
 msgstr "啟動時自動連線"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
 msgstr "請輸入 %1，或 <a href='#'>掃描 QR 圖碼</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr "%1 和 QR 圖碼都位於您將要連線的 %2「偏好設定」頁面內。"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
 msgstr "%1 啟動時自動連線"
@@ -1044,6 +1253,7 @@ msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
 msgstr "確定"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr "在這裡您可以連線到在您的 Windows/macOS/Linux PC 執行的 %1"
@@ -1061,6 +1271,26 @@ msgid "Port"
 msgstr "連接埠"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "連線計數"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "沒有連線"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "主機"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "連接埠"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "連線計數"
 
@@ -1116,6 +1346,7 @@ msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
 msgstr "無法啟動。"
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "錯誤: %1"
@@ -1124,11 +1355,21 @@ msgctxt "CppQmlAppRcServer|"
 msgid "OK"
 msgstr "確定"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr ""
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr ""
+
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr "發生內部錯誤。<br>需要重新啟動 %1 以繼續使用。"
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
 msgstr "自動重啟 %1"
@@ -1157,6 +1398,7 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "建立可攜式版本"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
@@ -1189,10 +1431,12 @@ msgctxt "CreatePortableDialog|"
 msgid "OK"
 msgstr "確定"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "正在建立 %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
 msgstr "建立可攜式版本時發生錯誤: %1"
@@ -1321,14 +1565,17 @@ msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "中止"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "大小: %1 (磁碟空間: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
 msgstr "磁碟空間: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "大小: %1"
@@ -1336,6 +1583,19 @@ msgstr "大小: %1"
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "在 Dock 圖示上顯示上傳速度總計"
+
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr ""
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
+msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
@@ -1367,6 +1627,12 @@ msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "關閉"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr ""
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
 msgstr "[%1%] - %2"
@@ -1407,6 +1673,8 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "已下載"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
 msgstr "%1% [%2]"
@@ -1483,6 +1751,58 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "磁碟遺失"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "正在檢查檔案"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "正在合併媒體串流"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "正在要求資訊"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "已佇列"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "已完成"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "N/A"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr ""
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr ""
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr ""
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr ""
+
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
 msgstr "下載連結 (%1 已選取)"
@@ -1507,6 +1827,7 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "找不到結果"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
 msgstr "找不到「%1」標籤的結果"
@@ -1527,9 +1848,15 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "下載清單是空的。新增下載 URL。"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "連線至遠端 %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "搜尋"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1551,10 +1878,12 @@ msgctxt "DownloadsSettings|"
 msgid "Immediately"
 msgstr "立即"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
 msgstr "經"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
 msgstr "天"
@@ -1631,6 +1960,38 @@ msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
 msgstr "上傳已暫停"
 
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "名稱"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "大小"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "狀態"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "下載"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "新增日期"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr ""
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr ""
+
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
 msgstr "優先順序"
@@ -1666,18 +2027,6 @@ msgstr ""
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
 msgstr "選擇檔案…"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "高"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "中"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "低"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
@@ -1771,6 +2120,10 @@ msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "循序下載"
 
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr ""
+
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "從清單中移除"
@@ -1806,6 +2159,18 @@ msgstr "已暫停"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "未知檔案大小"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "優先順序"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr ""
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1920,6 +2285,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
 msgstr "所有檔案 (%1)"
@@ -1932,6 +2298,7 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Export"
 msgstr "匯出"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 下載檔案 (%2)"
@@ -1944,6 +2311,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "URL 清單"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "文字檔案 (%1)"
@@ -1952,6 +2320,7 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "CSV 檔案"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "CSV 檔案 (%1)"
@@ -1964,10 +2333,12 @@ msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 設定檔案 (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
 msgstr "所有檔案 (%1)"
@@ -1980,6 +2351,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "雜湊"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "正在計算 %1%"
@@ -2024,6 +2396,7 @@ msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "雜湊"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
 msgstr "正在計算 %1%"
@@ -2052,6 +2425,7 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "檔案名稱"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
 msgstr "%1 檔案 (*.%2)"
@@ -2100,6 +2474,35 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "遞減"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr ""
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "檔案類型:"
@@ -2112,6 +2515,7 @@ msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
 msgstr "記住我的選擇並套用到所有下載項目"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
 msgstr "重新命名 (%1)"
@@ -2204,6 +2608,52 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "轉換為 mp4 格式"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "名稱"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "大小"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "狀態"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "已完成"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "優先順序"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "中"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "高"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "低"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "已完成"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "名稱"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "優先順序"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "巨集"
@@ -2211,10 +2661,6 @@ msgstr "巨集"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "一般"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "選擇佈景主題"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2229,8 +2675,20 @@ msgid "Suggest folders based on file type"
 msgstr "基於檔案類型建議資料夾"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr ""
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
 msgstr "系統佈景主題未知時，將使用淺色主題。"
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
@@ -2239,6 +2697,14 @@ msgstr "您的語言未列出？還是翻譯不完整？"
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
 msgstr "讓我們一起完善它！"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "選項"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "開機時啟動 (最小化)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
@@ -2288,10 +2754,12 @@ msgctxt "GeneralSettings|"
 msgid "Immediately"
 msgstr "立即"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
 msgstr "經"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
 msgstr "天"
@@ -2324,6 +2792,14 @@ msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "自動安裝更新"
 
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr ""
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr ""
+
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
 msgstr "自動檢查更新"
@@ -2343,6 +2819,28 @@ msgstr "允許數據漫遊"
 msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "漫遊時使用行動數據可能會產生額外費用。"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "選擇佈景主題"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "系統佈景主題未知時，將使用淺色主題。"
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2388,6 +2886,7 @@ msgctxt "GeneralTab|"
 msgid "Speed"
 msgstr "速度"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%2 / %1"
@@ -2411,6 +2910,57 @@ msgstr "新增日期:"
 msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "進度:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "已下載:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "已上傳"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "比例"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "新增於:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "下載速度:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "上傳速度:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "網頁"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "檔案"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "優先順序"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "已儲存至"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "進度"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2436,22 +2986,27 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
 msgstr "所有檔案 (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
 msgstr "文字檔案 (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 下載檔案 (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 設定檔案 (%2)"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "錯誤: %1"
@@ -2464,6 +3019,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
 msgstr "無法從文字檔貼上 URL"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "無法從檔案匯入 URL 清單: %1"
@@ -2472,6 +3028,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
 msgstr "匯出失敗"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
 msgstr "無法匯出至檔案: %1"
@@ -2480,6 +3037,7 @@ msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "匯入失敗"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "無法從檔案匯入: %1"
@@ -2500,41 +3058,17 @@ msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "語言"
 
+msgctxt "LanguageSelection|"
+msgid "Language"
+msgstr "語言"
+
+msgctxt "LanguageSelection|"
+msgid "Unknown"
+msgstr "不明"
+
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "遠端控制"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "瀏覽器"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "設定"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "聯絡支援"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "提交錯誤報告"
-
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "從遠端 %1 中斷連線"
-
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "連線至遠端 %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "關於"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "結束"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2552,6 +3086,7 @@ msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - 內容類型 (例如:「Music」)"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - 伺服器名稱 (例如:「%1」)"
@@ -2595,10 +3130,6 @@ msgstr "已完成"
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
 msgstr "未完成"
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr "確定要移除標籤嗎？"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
@@ -2664,10 +3195,12 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "關機"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
 msgstr "從遠端 %1 中斷連線"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
 msgstr "連線至遠端 %1"
@@ -2688,6 +3221,54 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "結束"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "瀏覽器"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "設定"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "聯絡支援"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "提交錯誤報告"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "從遠端 %1 中斷連線"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "連線至遠端 %1"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "關於"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "結束"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "蝸速模式在不停止下載底下釋出頻寬。"
@@ -2696,6 +3277,7 @@ msgctxt "MainStatusBar|"
 msgid "Snail mode"
 msgstr "蝸速模式"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
@@ -2704,6 +3286,40 @@ msgstr[0] "已選取 %n 個下載項目。"
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "總大小:"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "無限制"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "蝸速模式在不停止下載底下釋出頻寬。"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "蝸速模式"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr ""
+
+#, qt-format
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "已選取 %n 個下載項目。"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "總大小:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -2753,6 +3369,46 @@ msgctxt "MainToolbar|"
 msgid "remote control"
 msgstr "遠端控制"
 
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "開始"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "暫停"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "新增下載"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr ""
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "是否切換至使用者定義的排序下載清單？"
+
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
 msgstr "無限制"
@@ -2785,6 +3441,7 @@ msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
 msgstr ""
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
 msgstr ""
@@ -2821,6 +3478,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "跳過"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "跳過全部 (%1)"
@@ -2861,10 +3519,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "移動下載項目失敗"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "錯誤: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "無法移動: %1"
@@ -2993,6 +3653,11 @@ msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "路徑包含無效字元"
 
+#, fuzzy
+msgctxt "MySearchField|"
+msgid "Search"
+msgstr "搜尋"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "檢查更新..."
@@ -3098,6 +3763,10 @@ msgid "Address"
 msgstr "位址"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "手動設定"
+
+msgctxt "NetworkSettings|"
 msgid "Port"
 msgstr "連接埠"
 
@@ -3177,6 +3846,7 @@ msgctxt "Notification|"
 msgid "Ready to play"
 msgstr ""
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
 msgstr "%1 缺少權限"
@@ -3223,10 +3893,21 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "連線"
 
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "確定"
+
+#. Browse for a file
+msgctxt "PickFileButton|"
+msgid "Browse..."
+msgstr ""
+
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
 msgstr ""
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
 msgstr "喜歡 %1 附加元件嗎？"
@@ -3236,6 +3917,7 @@ msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr "我們想請您協助此附加元件吸引其潛在的使用者。"
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
@@ -3263,24 +3945,25 @@ msgid "Add-ons"
 msgstr "附加元件"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
-msgstr "檢查更新"
-
-msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
-msgstr "從檔案安裝附加元件…"
-
-msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
-msgstr "自動更新附加元件"
-
-msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
-msgstr "更新時自動重設所有附加元件"
-
-msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
 msgstr "正在更新已安裝的附加元件…"
+
+msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr ""
+
+#, fuzzy
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "必需重啟"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
@@ -3290,6 +3973,7 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "從檔案安裝附加元件"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "深入瞭解 %1 附加元件"
@@ -3302,6 +3986,7 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "取消"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
 msgstr "%1 附加元件檔案"
@@ -3335,9 +4020,30 @@ msgid "Please install add-ons from trusted sources only."
 msgstr "請僅從受信任的來源下載附加元件。"
 
 msgctxt "PluginsPage|"
+msgid "Check for updates"
+msgstr "檢查更新"
+
+msgctxt "PluginsPage|"
+msgid "Install add-on from file..."
+msgstr "從檔案安裝附加元件…"
+
+msgctxt "PluginsPage|"
+msgid "Update add-ons automatically"
+msgstr "自動更新附加元件"
+
+msgctxt "PluginsPage|"
+msgid "Reset all add-ons to update automatically"
+msgstr "更新時自動重設所有附加元件"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
+msgstr ""
+
+msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "要繼續安裝嗎？"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 是必要的。"
@@ -3366,14 +4072,17 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
 msgstr "要繼續安裝嗎？"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
 msgstr "新版本的 %1 附加元件要求危險權限:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
 msgstr "新版本的 %1 附加元件要求危險權限:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
@@ -3382,6 +4091,7 @@ msgstr ""
 "新版本的 %1 附加元件要求額外元件:\n"
 "%2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
 msgstr "新版本的 %1 附加元件要求 %2。"
@@ -3395,11 +4105,11 @@ msgid "Would you like to install it?"
 msgstr "要安裝它嗎？"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "允許自動更新"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
+msgid "Check for updates"
 msgstr "檢查更新"
 
 msgctxt "PluginsViewItem|"
@@ -3410,6 +4120,7 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "正在更新…"
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "版本: %1"
@@ -3438,6 +4149,7 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "使用者合約"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
@@ -3458,6 +4170,10 @@ msgstr "傳送報告"
 msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr "N/A"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -3498,6 +4214,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "無法初始化應用程式狀態管理員。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3511,13 +4228,20 @@ msgid "Enter URL"
 msgstr "輸入 URL"
 
 msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr ""
+
+#, qt-format
+msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "很抱歉，此裝置尚未被支援 %1。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr "%1 無法初始化，請重新安裝。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "原因: %1"
@@ -3534,6 +4258,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "顯示主視窗"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "關於 %1"
@@ -3543,73 +4268,99 @@ msgid "Quit"
 msgstr "結束"
 
 msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "偏好設定…"
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "檢查更新…"
+
+#, qt-format
+msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 B"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 MB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 GB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 TB"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 G"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 T"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
 msgstr "%1 B/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
 msgstr "%1 KB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
 msgstr "%1 MB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
 msgstr "%1 GB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
 msgstr "%1 TB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
 msgstr "%1 K/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
 msgstr "%1 M/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
 msgstr "%1 G/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
 msgstr "%1 T/s"
@@ -3678,6 +4429,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "未知的檔案 I/O 錯誤"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "HTTP 錯誤 %1"
@@ -3919,6 +4671,14 @@ msgid "Incompatible version"
 msgstr "不相容版本"
 
 msgctxt "QObject|"
+msgid "Security check failed"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Host not found"
 msgstr "找不到主機"
 
@@ -4002,6 +4762,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "無法移除目前版本"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "hdiutil 錯誤 %1"
@@ -4014,18 +4775,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "簽章核取失敗。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "使用 %1 下載"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "全部使用 %1 下載"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "使用 %1 下載選取的項目"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "使用 %1 下載影片"
@@ -4042,6 +4807,7 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "磁碟空間不足。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
@@ -4056,6 +4822,7 @@ msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "錯誤: 無法載入資料庫。"
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
@@ -4118,14 +4885,19 @@ msgctxt "QObject|"
 msgid "Files were modified"
 msgstr "檔案已修改"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
 msgstr "%2 處未知的 %1"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
 msgstr "在 %3 的 %2 中的 %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
 msgstr "%1 %2 或更高"
@@ -4139,6 +4911,10 @@ msgid "Allows to execute arbitrary code."
 msgstr "允許執行任意程式碼。"
 
 msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Installing..."
 msgstr "正在安裝…"
 
@@ -4150,10 +4926,12 @@ msgctxt "QObject|"
 msgid "Missing components"
 msgstr "遺失元件"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 是必要的"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 是必要的"
@@ -4170,6 +4948,15 @@ msgctxt "QObject|"
 msgid "Open folder"
 msgstr "打開資料夾"
 
+msgctxt "QObject|"
+msgid "Security check failure."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
 msgstr ""
@@ -4198,6 +4985,7 @@ msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
 msgstr "QIODevice::不支援對 QuaZIODevice 的讀寫"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
 msgstr "ZIP/UNZIP API 錯誤 %1"
@@ -4222,6 +5010,7 @@ msgctxt "RemoteControlSettings|"
 msgid "(beta)"
 msgstr "(測試版)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
 msgstr "允許遠端存取在此裝置執行的 %1"
@@ -4298,6 +5087,7 @@ msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "回報問題"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "很抱歉，由於發生 %1 錯誤，因此報告沒有被傳送"
@@ -4438,14 +5228,11 @@ msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
 msgstr "設定每週天數以啟用排程器"
 
-msgctxt "SearchField|"
-msgid "Search"
-msgstr "搜尋"
-
 msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "搜尋"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "已選取: %1"
@@ -4582,6 +5369,7 @@ msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "取消"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
 msgstr "確定 (%1)"
@@ -4634,6 +5422,7 @@ msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL 憑證無效。"
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
 msgstr ""
@@ -4748,6 +5537,7 @@ msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
 msgstr "電子郵件"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
 msgstr "附加 %1 記錄檔案 (建議)"
@@ -4769,6 +5559,51 @@ msgid "Submitting"
 msgstr "正在提交"
 
 msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr "提交"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "提交錯誤報告"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "標題"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "描述"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "名稱"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "電子郵件"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "附加 %1 記錄檔案 (建議)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "必要欄位"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "正在提交"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
 msgid "Submit"
 msgstr "提交"
 
@@ -4893,8 +5728,54 @@ msgid "Restart is required"
 msgstr "必需重啟"
 
 msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr ""
+
+msgctxt "TroubleshootingSettings|"
 msgid "Hide"
 msgstr "隱藏"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "低"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "中"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "高"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "蝸速模式"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "修改速限"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
@@ -4908,6 +5789,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "無限制"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "下載: %1，上傳: %2"
@@ -4960,6 +5842,15 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "修改速限"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
 msgstr "不能大於/超過 %1"
@@ -4967,10 +5858,6 @@ msgstr "不能大於/超過 %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "新的下載"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "新的檔案"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -4992,17 +5879,79 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "您所選擇的資料夾沒有寫入權限"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "大小: %1 (磁碟空間: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
 msgstr "磁碟空間: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "大小: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "新的檔案"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "下載"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "新的檔案"
+
+msgctxt "UiCoreBase|"
+msgid "Support the project"
+msgstr ""
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
+msgstr ""
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "高"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "低"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "中"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "確定"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr ""
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr ""
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5024,6 +5973,7 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "有可用的新版本"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
 msgstr "新增功能 %1"
@@ -5032,6 +5982,7 @@ msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "更新"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 已是最新版本"
@@ -5068,6 +6019,7 @@ msgctxt "UpdateDialog|"
 msgid "Installing updates"
 msgstr "正在安裝更新"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "重新啟動 %1 以更新"
@@ -5088,6 +6040,7 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "品質:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
 msgstr "喜歡 %1 嗎？"
@@ -5124,10 +6077,12 @@ msgctxt "WaitingPage|"
 msgid "Loading"
 msgstr "正在載入"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
 msgstr "連線至 %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "錯誤: %1"
@@ -5148,6 +6103,7 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "有可用的新版本"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
 msgstr "新增功能 %1"
@@ -5156,6 +6112,7 @@ msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "更新"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "很抱歉，由於發生 %1 錯誤，因此報告沒有被傳送"
@@ -5164,6 +6121,19 @@ msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr "報告傳送成功！非常感謝您的合作！"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
 msgstr "遠端連線至 %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "新增下載"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "新的下載"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "確定要移除標籤嗎？"

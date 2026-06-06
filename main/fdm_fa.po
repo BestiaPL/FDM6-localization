@@ -12,41 +12,47 @@ msgctxt "AboutDialog|"
 msgid "About"
 msgstr "درباره ما"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version: %1 (%2)"
 msgstr "نسخه: %1 (%2)"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Build date: %1"
-msgstr "تاریخ بیلد: %1"
+msgstr "تاریخ ساخت: %1"
 
+#. © FreeDownloadManager.org, 2004-2023
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "© %1, %2-%3"
-msgstr ""
+msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "remote control"
-msgstr ""
+msgstr "کنترل از راه دور"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "version %1"
 msgstr "نسخه %1"
 
 msgctxt "AboutDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
+#, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1 (%2)"
 msgstr "نسخه %1 (%2)"
 
 msgctxt "AddDateToFileName|"
 msgid "Add dates to files names"
-msgstr "افزودن تاریخ به نام فایل ها"
+msgstr "افزودن تاریخ به نام فایل‌ها"
 
 msgctxt "AddMirrorDialog|"
 msgid "Add mirror"
-msgstr "اضافه کردن منبع جایگزین"
+msgstr "افزودن منبع جایگزین"
 
 msgctxt "AddMirrorDialog|"
 msgid "Enter mirror URL"
@@ -58,19 +64,23 @@ msgstr "انصراف"
 
 msgctxt "AddMirrorDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "AddMirrorPage|"
 msgid "Add mirror"
-msgstr "منبع جایگزین را اضافه کنید"
+msgstr "افزودن منبع جایگزین"
 
 msgctxt "AddMirrorPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "AddMirrorPage|"
 msgid "Enter mirror URL"
 msgstr "مسیر منبع جایگزین را وارد کنید"
+
+msgctxt "AddNewTagMenuItem|"
+msgid "Add tag"
+msgstr "افزودن برچسب"
 
 msgctxt "AddTDialog|"
 msgid "Cancel"
@@ -78,11 +88,11 @@ msgstr "انصراف"
 
 msgctxt "AddTDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "AddTPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "AddTag|"
 msgid "Add tag"
@@ -94,27 +104,28 @@ msgstr "پیشرفته"
 
 msgctxt "AdvancedSettings|"
 msgid "Notifications"
-msgstr "اعلان ها"
+msgstr "اعلان‌ها"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr ""
+msgstr "مرا از دانلودهای اضافه شده از طریق مرکز اعلان مطلع کنید"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "دانلودهای تکمیل شده را از طریق مرکز اعلانات به من اطلاع بده"
+msgstr "مرا از دانلودهای تکمیل شده از طریق مرکز اعلان مطلع کنید"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "دانلودهای لغو شده را از طریق مرکز اعلان به من اطلاع بده"
+msgstr "مرا از دانلودهای ناموفق از طریق مرکز اعلان مطلع کنید"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "دانلودها را وقتی که پنجره %1 غیرفعال است به من اطلاع بده"
+msgstr "مرا فقط زمانی که پنجره %1 غیرفعال است از دانلودها مطلع کنید"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "شخصی سازی صداها"
+msgstr "شخصی‌سازی صداها"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -122,11 +133,11 @@ msgstr "مدیریت انرژی"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr ""
+msgstr "اجتناب از حالت خواب در صورت وجود دانلود برنامه‌ریزی شده"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr ""
+msgstr "اجازه دادن به حالت خواب هنگام اشتراک‌گذاری فایل‌ها"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -134,40 +145,45 @@ msgstr "گزینه ها"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "اجرا در زمان راه اندازی (مینیمایز)"
+msgstr "راه‌اندازی در شروع سیستم (در حالت کوچک شده)"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
-msgstr "نمایش پیشنهادات ویژه"
+msgstr "نمایش پیشنهادهای ویژه"
 
 msgctxt "AdvancedSettings|"
 msgid "Interface"
-msgstr "رابط"
+msgstr "رابط کاربری"
 
+#, qt-format
 msgctxt "AdvancedSettings|"
 msgid ""
 "Click on the Close button to hide %1 and keep it running in the background"
-msgstr ""
+msgstr "برای پنهان کردن %1 و اجرا در پس زمینه دکمه ی بستن  را فشار دهید"
 
 msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "باز و مخفی کردن پنل پایین بوسیله کلیک کردن روی دانلود"
+msgstr "باز/پنهان کردن پنل پایین با کلیک بر روی دانلود"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "پنهان کردن نماد داک"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr "نمایش دانلود و آپلود فعال با استفاده از آیکون نرم افزار"
+msgstr "نشان دادن دانلود و آپلود فعال با استفاده از نماد در نوار وظیفه"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
-msgstr ""
+msgstr "نمایش برچسب‌های داخلی:"
 
 msgctxt "AdvancedSettings|"
 msgid "Automation"
-msgstr ""
+msgstr "خودکارسازی"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr ""
+msgstr "اجرای برنامه خارجی پس از تکمیل دانلود"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -175,19 +191,33 @@ msgstr "مسیر:"
 
 msgctxt "AdvancedSettings|"
 msgid "Please enter application's path"
-msgstr ""
+msgstr "لطفاً مسیربرنامه را وارد کنید"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments:"
-msgstr "ورودی ها:"
+msgstr "ورودی‌ها:"
 
 msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "ورودی ها باید متغیر %path% را شامل شوند"
+msgstr "پارامترها باید شامل متغیر %path% باشند"
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "عیب‌یابی"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "نیاز به راه‌اندازی مجدد است"
 
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
-msgstr "برگشت به تنظیمات پیش فرض"
+msgstr "بازگشت به تنظیمات پیش‌فرض"
 
 msgctxt "AdvancedSettings|"
 msgid "Reset"
@@ -195,27 +225,27 @@ msgstr "بازنشانی"
 
 msgctxt "AdvancedSettings|"
 msgid "Default settings"
-msgstr "تنظیمات پیش فرض"
+msgstr "تنظیمات پیش‌فرض"
 
 msgctxt "AdvancedSettings|"
 msgid "Restore default settings?"
-msgstr "بازیابی تنظیمات پیش فرض؟"
+msgstr "بازیابی تنظیمات پیش‌فرض؟"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "بکاپ گرفتن از لیست دانلودها هر"
+msgstr "پشتیابان‌گیری از لیست دانلودها هر"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr ""
+msgstr "اجتناب از حالت خواب در صورت وجود دانلود فعال"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
-msgstr ""
+msgstr "فعال‌سازی حالت خواب اگر دانلودها قابل ادامه دادن باشند"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
-msgstr ""
+msgstr "واکنش به وجود فایل"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
@@ -223,7 +253,7 @@ msgstr "تغییر اسم"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "جایگزینی"
+msgstr "بازنویسی"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
@@ -231,31 +261,31 @@ msgstr "استفاده از صداها"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
-msgstr "اگر شارژ باطری به حداقل رسید اجازه دانلود وجود ندارد"
+msgstr "اجتناب از شروع دانلودها اگر سطح باتری کمتر از"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not share files when running on battery"
-msgstr ""
+msgstr "عدم اشتراک فایل‌ها هنگامی که دستگاه در حال استفاده از باتری است"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr "فعال سازی ترتیب دانلود تعریف شده توسط کاربر"
+msgstr "فعال‌سازی ترتیب دانلودهای تعریف شده توسط کاربر"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr "نمایش دکمه «ذخیره به عنوان...»"
+msgstr "نمایش دکمه \"ذخیره به عنوان...\""
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
-msgstr ""
+msgstr "فعال کردن پنجره‌های جدید دانلود به صورت مستقل"
 
 msgctxt "AdvancedSettings|"
 msgid "Overall zoom"
-msgstr ""
+msgstr "زوم کلی"
 
 msgctxt "AdvancedSettings|"
 msgid "Fonts zoom"
-msgstr ""
+msgstr "زوم فونت"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
@@ -263,43 +293,162 @@ msgstr "عملکرد دکمه حذف"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "فقط از لیست دانلود حذف کن"
+msgstr "فقط از لیست دانلود حذف کنید"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
-msgstr "حذف فایل ها"
+msgstr "حذف فایل‌ها"
 
 msgctxt "AdvancedSettings|"
 msgid "Always ask"
-msgstr "همیشه سوال کن"
+msgstr "همیشه بپرس"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "تنظیمات پیشرفته"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "انتخاب پوسته"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "انتخاب"
 
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "All"
+msgstr "همه"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Downloads only"
+msgstr "فقط دانلودها"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Uploads only"
+msgstr "فقط آپلودها"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Completed"
+msgstr "تمام شده"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
+msgid "Stopped"
+msgstr "متوقف‌شده"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Missing Files"
+msgstr "فایل های گمشده"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "All files"
+msgstr "تمام فایل‌ها"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Active"
+msgstr "فعال"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Completed"
+msgstr "تمام شده"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Uncompleted"
+msgstr "ناتمام"
+
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
 msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "فایل های گمشده"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "تمام فایل‌ها"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "فعال"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "تمام شده"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "ناتمام"
+
+msgctxt "AllDownloadsSearchField_V2|"
+msgid "Search in downloads..."
+msgstr "جست‌وجو در دانلودها..."
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "ترتیب"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Old"
+msgstr "قدیمی"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Newest"
+msgstr "جدیدترین"
+
+#. sort by title mode
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By size: small"
+msgstr "براساس اندازه: کوچک"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By size: large"
+msgstr "براساس اندازه: بزرگ"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By status: ascending"
+msgstr "بر اساس وضعیت: افزایشی"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
+msgid "By status: descending"
+msgstr "بر اساس وضعیت: کاهشی"
 
 msgctxt "AntivirusComboBox|"
 msgid "Configure manually..."
-msgstr "پیکربندی دستی..."
+msgstr "تنظیم به صورت دستی..."
 
 msgctxt "AntivirusSettings|"
 msgid "Antivirus"
-msgstr "آنتی ویروس"
+msgstr "آنتی‌ویروس"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "آنتی ویروس را انتخاب کنید:"
+msgstr "آنتی‌ویروس را انتخاب کنید:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
-msgstr "آنتی ویروس شما وجود ندارد؟"
+msgstr "آنتی‌ویروس شما وجود ندارد؟"
 
 msgctxt "AntivirusSettings|"
 msgid "Path:"
@@ -307,27 +456,27 @@ msgstr "مسیر:"
 
 msgctxt "AntivirusSettings|"
 msgid "Please enter antivirus path"
-msgstr "لطفا مسیر آنتی ویروس را وارد کنید"
+msgstr "لطفاً مسیر آنتی‌ویروس را وارد کنید"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments:"
-msgstr "ورودی ها:"
+msgstr "ورودی‌ها:"
 
 msgctxt "AntivirusSettings|"
 msgid "Arguments must contain %path% variable"
-msgstr "ورودی ها باید متغیر %path% را شامل شوند"
+msgstr "پارامترها باید شامل متغیر %path% باشند"
 
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
-msgstr "هنگامیکه دانلود تمام می شود به طور خودکار ویروس یابی شود"
+msgstr "بررسی فایل برای ویروس به صورت خودکار پس از تکمیل دانلود انجام شود"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "ویروس یابی"
+msgstr "بررسی فایل برای ویروس"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
-msgstr "هیچ آنتی ویروسی در تنظیمات مشخص نشده است."
+msgstr "هیچ آنتی‌ویروسی در تنظیمات مشخص نشده است."
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Go to settings"
@@ -339,77 +488,104 @@ msgstr "انصراف"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Storage"
-msgstr ""
+msgstr "حافظه"
 
 msgctxt "AppAndroidPermissionsManager|"
 msgid "Notifications"
-msgstr "اعلان ها"
+msgstr "اعلان‌ها"
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid "%1 needs permission to save downloaded files to your local storage."
 msgstr ""
+"%1 به مجوز نیاز دارد تا فایل‌های دانلود شده را در حافظه محلی شما ذخیره کند."
 
+#, qt-format
 msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
 msgstr ""
+"%1 به مجوز نیاز دارد تا پیشرفت دانلود را در پنل اعلان سیستم شما نشان دهد."
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Downloads with no resume support (%1)."
-msgstr "دانلود هایی بدون پشتیبانی ازسرگیری (%1)."
+msgstr "دانلودهایی که از ادامه پشتیبانی نمی‌کنند (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Moving files (%1)."
-msgstr "انتقال فایل ها (%1)."
+msgstr "در حال انتقال فایل‌ها (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp3 (%1)."
-msgstr "تبدیل فایل ها به mp3 (%1)."
+msgstr "در حال تبدیل فایل‌ها به mp3 (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Converting files to mp4 (%1)."
-msgstr "تبدیل فایل ها به mp4 (%1)."
+msgstr "در حال تبدیل فایل‌ها به mp4 (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Renaming files (%1)."
-msgstr ""
+msgstr "در حال تغییر نام فایل‌ها (%1)"
 
+#, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Merging media streams (%1)."
-msgstr ""
+msgstr "در حال ادغام جریان‌های رسانه‌ای (%1)"
 
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
 msgid "Deleting files."
-msgstr "حذف فایل ها."
+msgstr "در حال حذف فایل‌ها."
+
+msgctxt "AppMessageDialog|"
+msgid "OK"
+msgstr "تأیید"
+
+msgctxt "AppMessageDialog|"
+msgid "Cancel"
+msgstr "انصراف"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr ""
+msgstr "عملیاتی در حال انجام است که امکان ادامه ندارد"
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Connecting to remote %1 (%2)..."
-msgstr ""
+msgstr "در حال اتصال به کنترل از راه دور %1 (%2)..."
 
+#, qt-format
 msgctxt "AppRcClientLoadManager|"
 msgid "Getting data from remote %1 (%2)..."
-msgstr ""
+msgstr "در حال دریافت داده از کنترل از راه دور %1 (%2)..."
 
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "ناموفق."
 
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "انتخاب شده: %1"
+
 msgctxt "AuthDialog|"
 msgid "Authentication required"
-msgstr "احراز هویت الزامی است"
+msgstr "نیاز به احراز هویت"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "%1 requires authentication"
-msgstr ""
+msgstr "%1 نیاز به احراز هویت دارد"
 
+#, qt-format
 msgctxt "AuthDialog|"
 msgid "The site says: \"%1\"."
-msgstr "سایت اعلام می کند: \"%1\"."
+msgstr "سایت می‌گوید: \"%1\"."
 
 msgctxt "AuthDialog|"
 msgid "Username:"
@@ -417,11 +593,11 @@ msgstr "نام کاربری:"
 
 msgctxt "AuthDialog|"
 msgid "Password:"
-msgstr "رمز عبور:"
+msgstr "گذرواژه:"
 
 msgctxt "AuthDialog|"
 msgid "remember"
-msgstr "یادآوری"
+msgstr "به خاطر سپردن"
 
 msgctxt "AuthDialog|"
 msgid "Cancel"
@@ -429,15 +605,16 @@ msgstr "انصراف"
 
 msgctxt "AuthDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "AuthenticationDialog|"
 msgid "Authentication required"
-msgstr "احراز هویت الزامی است"
+msgstr "باید احزار هویت کتید"
 
+#, qt-format
 msgctxt "AuthenticationDialog|"
 msgid "The site says: \"%1\"."
-msgstr "سایت اعلام می کند: \"%1\"."
+msgstr "سایت می‌گوید: \"%1\"."
 
 msgctxt "AuthenticationDialog|"
 msgid "Username:"
@@ -445,11 +622,11 @@ msgstr "نام کاربری:"
 
 msgctxt "AuthenticationDialog|"
 msgid "Password:"
-msgstr "رمز عبور:"
+msgstr "گذرواژه:"
 
 msgctxt "AuthenticationDialog|"
 msgid "remember"
-msgstr "یادآوری"
+msgstr "به خاطر سپردن"
 
 msgctxt "AuthenticationDialog|"
 msgid "Cancel"
@@ -457,19 +634,20 @@ msgstr "انصراف"
 
 msgctxt "AuthenticationDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "AuthenticationPage|"
 msgid "Authentication required"
-msgstr "احراز هویت الزامی است"
+msgstr "باید احزار هویت کتید"
 
 msgctxt "AuthenticationPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
+#, qt-format
 msgctxt "AuthenticationPage|"
 msgid "The site says: \"%1\"."
-msgstr "سایت اعلام می کند: \"%1\"."
+msgstr "سایت می‌گوید: \"%1\"."
 
 msgctxt "AuthenticationPage|"
 msgid "Username"
@@ -477,96 +655,101 @@ msgstr "نام کاربری"
 
 msgctxt "AuthenticationPage|"
 msgid "Password"
-msgstr "رمز عبور"
+msgstr "گذرواژه"
 
 msgctxt "AuthenticationPage|"
 msgid "Remember"
-msgstr "یادآوری"
+msgstr "به خاطر سپردن"
 
 msgctxt "BackupComboBox|"
 msgid "5 minutes"
-msgstr "5 دقیقه"
+msgstr "۵ دقیقه"
 
 msgctxt "BackupComboBox|"
 msgid "15 minutes"
-msgstr "15 دقیقه"
+msgstr "۱۵ دقیقه"
 
 msgctxt "BackupComboBox|"
 msgid "1 hour"
-msgstr "1 ساعت"
+msgstr "۱ ساعت"
 
 msgctxt "BackupComboBox|"
 msgid "3 hours"
-msgstr "3 ساعت"
+msgstr "۳ ساعت"
 
 msgctxt "BackupComboBox|"
 msgid "1 day"
-msgstr "1 روز"
+msgstr "۱ روز"
 
 msgctxt "BackupSlider|"
 msgid "5 minutes"
-msgstr "5 دقیقه"
+msgstr "۵ دقیقه"
 
 msgctxt "BackupSlider|"
 msgid "15 minutes"
-msgstr "15 دقیقه"
+msgstr "۱۵ دقیقه"
 
 msgctxt "BackupSlider|"
 msgid "1 hour"
-msgstr "1 ساعت"
+msgstr "۱ ساعت"
 
 msgctxt "BackupSlider|"
 msgid "3 hours"
-msgstr "3 ساعت"
+msgstr "۳ ساعت"
 
 msgctxt "BackupSlider|"
 msgid "1 day"
-msgstr "1 روز"
+msgstr "۱ روز"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr ""
+msgstr "سرور یک صفحه وب برگرداند."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr ""
+msgstr "برای باز کردن آن در مرورگر وب کلیک کنید."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
-msgstr ""
+msgstr "لطفا در هر خط فقط یک مورد را انتخاب کنید"
 
 msgctxt "BaseTextArea|"
 msgid "Cut"
-msgstr "منتقل کردن"
+msgstr "برش"
 
 msgctxt "BaseTextArea|"
 msgid "Copy"
-msgstr "کپی کردن"
+msgstr "کپی"
 
 msgctxt "BaseTextArea|"
 msgid "Paste"
-msgstr "قرار دادن"
+msgstr "جای‌گذاری"
 
 msgctxt "BaseTextField|"
 msgid "Cut"
-msgstr "منتقل کردن"
+msgstr "برش"
 
 msgctxt "BaseTextField|"
 msgid "Copy"
-msgstr "کپی کردن"
+msgstr "کپی"
 
 msgctxt "BaseTextField|"
 msgid "Paste"
-msgstr "قرار دادن"
+msgstr "جای‌گذاری"
+
+msgctxt "BatchLanguage|"
+msgid "Language"
+msgstr "زبان"
 
 msgctxt "BatchVideoQuality|"
 msgid "Max. video quality:"
-msgstr ""
+msgstr "حداکثر کیفیت ویدیو:"
 
 msgctxt "BitrateComboBox|"
 msgid "kbps"
 msgstr "کیلوبیت بر ثانیه"
 
+#, qt-format
 msgctxt "BitrateComboBox|"
 msgid "From %1 %2 to %3 %4"
 msgstr "از %1 %2 به %3 %4"
@@ -601,11 +784,11 @@ msgstr "کمترین کیفیت، کوچکترین فایل"
 
 msgctxt "BottomPanelTools|"
 msgid "General"
-msgstr "عمومی"
+msgstr "کلی"
 
 msgctxt "BottomPanelTools|"
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 msgctxt "BottomPanelTools|"
 msgid "Progress"
@@ -613,7 +796,7 @@ msgstr "پیشرفت"
 
 msgctxt "BottomPanelTools|"
 msgid "Files"
-msgstr "فایل ها"
+msgstr "فایل‌ها"
 
 msgctxt "BottomPanelTools|"
 msgid "Connections"
@@ -621,27 +804,27 @@ msgstr "ارتباطات"
 
 msgctxt "Browser|"
 msgid "Enter URL"
-msgstr "وارد کردن URL"
+msgstr "ادرس را وارد کنید"
 
 msgctxt "Browser|"
 msgid "Bookmark removed"
-msgstr "بوک مارک حذف شد"
+msgstr "نشان حذف شد"
 
 msgctxt "Browser|"
 msgid "Bookmark added"
-msgstr "بوک مارک اضافه شد"
+msgstr "نشان اضافه شد"
 
 msgctxt "Browser|"
 msgid "Bookmarks"
-msgstr "بوک مارک ها"
+msgstr "نشان ‌ها"
 
 msgctxt "Browser|"
 msgid "There are no bookmarks at the moment"
-msgstr "در حال حاضر بوک مارکی موجود نیست"
+msgstr "در حال حاضر نشان ها موجود نیست"
 
 msgctxt "Browser|"
 msgid "Are you sure you want to remove this bookmark?"
-msgstr "مطمئن هستید می خواهید این بوک مارک را حذف نمایید؟"
+msgstr "آیا مطمئن هستید که می‌خواهید این نشان را حذف کنید؟"
 
 msgctxt "Browser|"
 msgid "YES"
@@ -651,65 +834,69 @@ msgctxt "Browser|"
 msgid "NO"
 msgstr "خیر"
 
+#, qt-format
 msgctxt "Browser MainMenu|"
 msgid "Back to %1"
-msgstr "برگشت به %1"
+msgstr "بازگشت به %1"
 
 msgctxt "Browser MainMenu|"
 msgid "Bookmarks"
-msgstr "بوک مارک ها"
+msgstr "نشان ها"
 
 msgctxt "Browser MainMenu|"
 msgid "Download media"
-msgstr ""
+msgstr "دانلود رسانه"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
-msgstr "حذف بوک مارک"
+msgstr "حذف نشان"
 
 msgctxt "Browser MainMenu|"
 msgid "Add bookmark"
-msgstr "افزودن بوک مارک"
+msgstr "افزودن نشان"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "%1 افزونه را دانلود کن"
+msgstr "دانلود افزونه %1"
 
+#, qt-format
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
 msgstr "%1 نصب نشده است"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Browser Integration"
-msgstr "یکپارچه سازی مرورگر"
+msgstr "یکپارچه‌سازی مرورگر"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"مطمئن شوید که شما %1 افزونه نصب شده دارید، در غیر اینصورت روی یکی از دکمه "
-"های زیر کلیک کنید"
+"مطمئن شوید که افزونه %1 نصب شده است، در غیر این صورت، روی یکی از دکمه‌های "
+"زیر کلیک کنید"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
-msgstr "مرورگرهای پشتیبانی شده دیگر"
+msgstr "دیگر مرورگرهای پشتیبانی‌شده"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Automatically catch downloads from browsers"
-msgstr "به طور خودکار دانلودها را از مرورگرها تشخیص بده"
+msgid "Automatically capture downloads from browsers"
+msgstr "دریافت کردن به طور خودکار دانلودها از مرورگرها"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "دانلودها را در مرورگر دنبال کن"
+msgstr "رهگیری دانلودها در مرورگر خود"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
-msgstr "شروع به دانلود کردن بدون نیاز به تایید"
+msgstr "شروع کردن به دانلود بدون نیاز به تأیید"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip domains"
-msgstr "نادیده گرفتن دامنه های"
+msgstr "نادیده‌گرفتن دامنه‌ها"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Edit list"
@@ -717,32 +904,38 @@ msgstr "ویرایش لیست"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid domain?"
-msgstr "مطمئن هستید که این یک دامنه معتبر است؟"
+msgstr "آیا مطمئن هستید که این یک دامنه معتبر است؟"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Skip files with extensions"
-msgstr "از دانلود فایل با پسوندهای روبرو صرف نظر کن"
+msgstr "رد شدن از فایل‌ها با پسوندها"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Are you sure this is a valid file extension?"
 msgstr "مطمئن هستید که پسوند این فایل معتبر است؟"
 
 msgctxt "BrowserIntegrationSettings|"
-msgid "Don't catch downloads smaller than"
+msgid "Don't capture downloads smaller than"
 msgstr "از دانلود فایل های کوچکتر از این خودداری کن"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Mbytes"
-msgstr "Mbytes"
+msgstr "مگابایت"
 
+#, qt-format
 msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
-msgstr "اگر از دانلود فایل بوسیله %1 انصراف دادید از مرورگر استفاده شود"
+msgstr "اگر دانلود از طریق %1 را لغو کردید، از مرورگر استفاده کنید"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Don't intercept if INSERT key is pressed"
-msgstr ""
+msgstr "اگر کلید INSERT فشار داده شود، دخالت نکنید"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Capture files with extensions"
+msgstr "ضبط/شناسایی فایل‌ها با پسوند مشخص"
+
+#, qt-format
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -754,14 +947,12 @@ msgid ""
 "browser does not provide to %1 (or there is no universal way for all "
 "browsers to do this)."
 msgstr ""
-"شما در حال باز کردن یک مرورگر داخلی هستید.\n"
-"\n"
-"این به شما کمک می کند تا دانلودها را به %1 اضافه کنید.\n"
-"\n"
-"بعضی از آنها از جمله دانلودهای گوگل درایو فقط بوسیله این مرورگر می توانند "
-"اضافه شوند زیرا آنها به اطلاعات اضافه ای نیاز دارند که مرورگر سیستم اندروید "
-"شما برای %1 فراهم نمی کند یا اینکه راه حل عمومی برای تمام مرورگرها وجود "
-"ندارد."
+"شما قرار است وارد یک مرورگر داخلی شوید.\n"
+"این به شما کمک می‌کند تا دانلودها را به %1 اضافه کنید.\n"
+"برخی از آنها (مانند دانلودهای Google Drive) فقط با استفاده از این مرورگر "
+"اضافه می‌شوند، زیرا به اطلاعات اضافی نیاز دارند که مرورگر سیستم اندروید شما "
+"به %1 ارائه نمی‌دهد (یا روش جهانی برای همه مرورگرها برای انجام این کار وجود "
+"ندارد)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -773,11 +964,12 @@ msgstr "(مرورگر نصب نشده است)"
 
 msgctxt "BtDetailsTab|"
 msgid "N/A"
-msgstr ""
+msgstr "نامشخص"
 
+#, qt-format
 msgctxt "BtDetailsTab|"
 msgid "(connected: %1)"
-msgstr ""
+msgstr "(متصل شده: %1)"
 
 msgctxt "BtDetailsTab|"
 msgid "Status"
@@ -789,15 +981,15 @@ msgstr "در حال بروزرسانی..."
 
 msgctxt "BtSettings|"
 msgid "General"
-msgstr "عمومی"
+msgstr "کلی"
 
 msgctxt "BtSettings|"
 msgid "Monitoring"
-msgstr "مانیتورینگ"
+msgstr "نظارت"
 
 msgctxt "BtSettings|"
 msgid "Open"
-msgstr "باز کردن"
+msgstr "بازکردن"
 
 msgctxt "BtSettings|"
 msgid "Cancel"
@@ -805,39 +997,40 @@ msgstr "انصراف"
 
 msgctxt "BtSettings|"
 msgid "Start downloading without confirmation"
-msgstr "شروع به دانلود کردن بدون نیاز به تایید"
+msgstr "شروع به دانلود کردن بدون نیاز به تأیید"
 
 msgctxt "BtSettings|"
 msgid "Privacy"
-msgstr ""
+msgstr "حریم‌خصوصی"
 
 msgctxt "BtSettings|"
 msgid "Encryption:"
-msgstr ""
+msgstr "رمزگذاری:"
 
 msgctxt "BtSettings|"
 msgid "No encryption allowed"
-msgstr ""
+msgstr "رمزگذاری مجاز نیست"
 
 msgctxt "BtSettings|"
 msgid "Prefer encryption"
-msgstr ""
+msgstr "ترجیح دادن رمزگذاری"
 
 msgctxt "BtSettings|"
 msgid "Require encryption"
-msgstr ""
+msgstr "نیاز به رمزگذاری"
 
 msgctxt "BtSettings|"
 msgid "Advanced"
 msgstr "پیشرفته"
 
+#, qt-format
 msgctxt "BtSettings|"
 msgid "Current port: %1"
-msgstr ""
+msgstr "پورت فعلی: %1"
 
 msgctxt "BtSettings|"
 msgid "Custom port:"
-msgstr ""
+msgstr "پورت سفارشی:"
 
 msgctxt "BtSettings|"
 msgid ""
@@ -845,6 +1038,9 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
+"استفاده از ردیاب‌های اضافی می‌تواند در برخی موارد سرعت دانلود را بهبود بخشد. "
+"لیست‌های این‌گونه ردیاب‌ها را می‌توانید از منابع مختلف، مانند <a "
+"href='https://github.com/ngosang/trackerslist'>اینجا</a بازیابی کنید."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -872,55 +1068,66 @@ msgstr "دانلود"
 
 msgctxt "BuildDownloadDialog|"
 msgid "OK"
-msgstr "تایید"
-
-msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "افزودن دانلود"
+msgstr "تأیید"
 
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "دانلود"
 
 msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "تایید"
-
-msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "گزارش مشکل"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "دانلود کردن از این سایت مجاز نیست"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "افزودن دانلود"
 
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "دانلود"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "تأیید"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "افزودن دانلود"
+
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "The proxy %1 requires a username and password."
-msgstr "پراکسی %1 به یک نام کاربری و رمز عبور درخواست نیاز دارد."
+msgstr "پروکسی %1 به نام کاربری و گذرواژه نیاز دارد."
 
+#, qt-format
 msgctxt "BuildDownloadTools|"
 msgid "%1 is requesting your username and password."
-msgstr "%1 نام کاربری و رمز عبور شما را درخواست کرده."
+msgstr "%1 نام کاربری و گذرواژه شما را درخواست کرده است."
 
 msgctxt "BuildDownloadTools|"
 msgid "Querying info. Please wait..."
-msgstr "در حال دریافت اطلاعات. منتظر باشید..."
+msgstr "در حال جستجوی اطلاعات. لطفا شکیبا باشید..."
 
 msgctxt "ButtonsBlock|"
 msgid "Please select download link"
-msgstr "لطفا لینک دانلود را انتخاب کنید"
+msgstr "لطفاً لینک دانلود را انتخاب کنید"
 
+#, qt-format
 msgctxt "ButtonsBlock|"
 msgid "You can select no more than %1 links at a time"
 msgstr "شما نمی توانید در یک لحظه بیشتر از %1 لینک انتخاب کنید"
 
 msgctxt "ButtonsBlock|"
 msgid "No write access to the selected directory"
-msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ندارد"
+msgstr "دسترسی نوشتن به پوشه انتخاب شده وجود ندارد"
 
 msgctxt "ButtonsBlock|"
 msgid "Not enough disk space"
-msgstr "فضای دیسک کافی نیست"
+msgstr "فضا ذخیره سازی  کافی نیست"
 
 msgctxt "ButtonsBlock|"
 msgid "The path contains invalid characters"
@@ -940,23 +1147,32 @@ msgstr "انصراف"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
-msgstr "دریافت"
+msgstr "دانلود"
+
+msgctxt "ButtonsBlock|"
+msgid "The subfolder name must not be empty"
+msgstr "اسم پوشه زیرمجموعه نباید خالی باشد"
+
+msgctxt "ButtonsBlock|"
+msgid "The filename must not be empty"
+msgstr "اسم فایل نباید خالی باشد"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
-msgstr "تغییر URL دانلود"
+msgstr "تغییر ادرس دانلود"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Enter new URL"
-msgstr "وارد کردن URL جدید"
+msgstr "وارد کردن ادرس  جدید"
 
+#, qt-format
 msgctxt "ChangeUrlDialog|"
 msgid "File location: %1"
 msgstr "مکان فایل: %1"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Invalid URL"
-msgstr "URL نامعتبر"
+msgstr "ادرس نامعتبر"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Start download"
@@ -968,7 +1184,7 @@ msgstr "انصراف"
 
 msgctxt "ChangeUrlDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "ChangeUrlPage|"
 msgid "Change download URL"
@@ -976,12 +1192,13 @@ msgstr "تغییر URL دانلود"
 
 msgctxt "ChangeUrlPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "ChangeUrlPage|"
 msgid "Enter new URL"
 msgstr "ورود URL جدید"
 
+#, qt-format
 msgctxt "ChangeUrlPage|"
 msgid "File location: %1"
 msgstr "مکان فایل: %1"
@@ -992,51 +1209,59 @@ msgstr "شروع دانلود"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Extraneous files are detected"
-msgstr ""
+msgstr "فایل‌های اضافی شناسایی شدند"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
 msgstr ""
+"پوشه زیر شامل فایل‌های اضافی است. آیا هنوز هم می‌خواهید آن را حذف کنید؟"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Delete anyway"
-msgstr ""
+msgstr "به هر حال حذف کن"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "اتصال به کنترل از راه دور %1"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
-msgstr ""
+msgstr "(بتا)"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on another device."
-msgstr ""
+msgstr "اینجا می‌توانید به %1 که روی دستگاه دیگری در حال اجرا است متصل شوید."
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at startup"
-msgstr ""
+msgstr "اتصال خودکار در هنگام راه‌اندازی"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr ""
+msgstr "لطفاً %1 را وارد کنید یا <a href='#'>QR کد را اسکن کنید</a>"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
 "Both %1 and QR code are located inside of Preferences page of %2 you're "
 "going to connect to."
 msgstr ""
+"هر دو %1 و کد QR داخل صفحه تنظیمات %2 که قصد اتصال به آن را دارید، قرار "
+"دارند."
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Automatically connect at %1 startup"
-msgstr ""
+msgstr "اتصال به صورت خودکار به %1 در استارتاپ"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Cancel"
@@ -1044,11 +1269,14 @@ msgstr "انصراف"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
+#, qt-format
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Here you can connect to %1 running on your Windows/macOS/Linux PC"
 msgstr ""
+"اینجا می‌توانید به %1 که روی رایانه Windows/macOS/Linux شما در حال اجرا است "
+"متصل شوید"
 
 msgctxt "ConnectionsTab|"
 msgid "There are no connections"
@@ -1066,21 +1294,41 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "تعداد ارتباط"
 
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "هیچ ارتباطی وجود ندارد"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "میزبان"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "پورت"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Connection count"
+msgstr "تعداد ارتباط"
+
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
-msgstr ""
+msgstr "فایل‌های مقصد از قبل وجود دارند"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Overwrite All"
-msgstr "جایگزینی همه"
+msgstr "بازنویسی همه"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Rename All"
-msgstr "تغییر اسم همه"
+msgstr "تغییر نام همه"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Skip All"
-msgstr ""
+msgstr "نادیده‌گرفتن همه"
 
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Abort"
@@ -1088,11 +1336,11 @@ msgstr "لغو"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Failed to convert"
-msgstr "ناموفق در تبدیل"
+msgstr "تبدیل ناموفق بود"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "ConvertFilesFailedDialog|"
 msgid "Convert failed"
@@ -1104,42 +1352,53 @@ msgstr "کپی کردن لینک"
 
 msgctxt "CopyMenu|"
 msgid "Copy"
-msgstr "کپی کردن"
+msgstr "کپی"
 
 msgctxt "CppQmlApp|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Starting..."
-msgstr ""
+msgstr "شروع‌کردن..."
 
 msgctxt "CppQmlAppRcServer|"
 msgid "Failed to start."
-msgstr ""
+msgstr "شروع ناموفق بود."
 
+#, qt-format
 msgctxt "CppQmlAppRcServer|"
 msgid "Error: %1"
 msgstr "خطا: %1"
 
 msgctxt "CppQmlAppRcServer|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
+msgctxt "CppQmlLocalizations|"
+msgid "Today"
+msgstr "امروز"
+
+msgctxt "CppQmlLocalizations|"
+msgid "Yesterday"
+msgstr "دیروز"
+
+#, qt-format
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"یک خطای داخلی رخ داده است. <br>%1 نیاز دارد برای استفاده بعدی دوباره شروع "
-"شود."
+"یک خطای داخلی رخ داده است.<br>%1 نیاز به راه‌اندازی مجدد برای استفاده بیشتر "
+"دارد."
 
+#, qt-format
 msgctxt "CrashReporter|"
 msgid "Restart %1 automatically"
-msgstr "شروع خودکار %1"
+msgstr "راه‌اندازی مجدد %1 به طور خودکار"
 
 msgctxt "CrashReporter|"
 msgid "Failed to send the report.<br>Check your Internet connection."
-msgstr "ارسال گزارش انجام نشد.<br>اتصال اینترنت خود را بررسی کنید."
+msgstr "ارسال گزارش ناموفق بود.<br>اتصال اینترنت خود را بررسی کنید."
 
 msgctxt "CrashReporter|"
 msgid "Error"
@@ -1151,7 +1410,7 @@ msgstr "ایجاد پوشه"
 
 msgctxt "CreateFolderDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "CreateFolderDialog|"
 msgid "Cancel"
@@ -1161,29 +1420,30 @@ msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
 msgstr "ساخت نسخه قابل حمل"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"نسخه قابل حمل %1 قابلیت استفاده در رایانه های مختلف را بدون نیاز به نصب و "
-"تنظیم مجدد در هر یک را داراست."
+"نسخه قابل حمل %1 می‌تواند در رایانه‌های مختلف بدون نیاز به نصب و پیکربندی "
+"روی هر یک از آنها استفاده شود."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
-msgstr "به طور مثال میتواند به راحتی در یک فلش مموری قرار گیرد."
+msgstr "به عنوان مثال، می‌توان به راحتی آن را روی یک دیسک فلش قرار داد."
 
 msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"اینجا مسیر محلی که تمایل به ایجاد این نسخه را دارید مشخص کنید. این مسیر باید "
-"به یک فولدر در یک فضای ذخیره سازی قابل حمل ختم شود."
+"مسیر ایجاد این نسخه را در اینجا مشخص کنید. باید یک پوشه در یک دستگاه قابل "
+"جابجایی باشد."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
-msgstr "باز کردن"
+msgstr "بازکردن"
 
 msgctxt "CreatePortableDialog|"
 msgid "Cancel"
@@ -1191,23 +1451,25 @@ msgstr "انصراف"
 
 msgctxt "CreatePortableDialog|"
 msgid "Please specify the path."
-msgstr "لطفا مسیر را مشخص کنید."
+msgstr "لطفاً مسیر را مشخص کنید."
 
 msgctxt "CreatePortableDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "Creating %1%"
 msgstr "ایجاد %1%"
 
+#, qt-format
 msgctxt "CreatePortableDialog|"
 msgid "An error occurred while creating a portable version: %1"
-msgstr "خطایی حین ایجاد نسخه قابل حمل بوجود امد: %1"
+msgstr "هنگام ایجاد نسخه قابل حمل خطایی رخ داده است: %1"
 
 msgctxt "CreatePortableDialog|"
 msgid "Creating a portable version was successfully completed."
-msgstr "نسخه قابل حمل به صورت موفقیت امیز ایجاد شد."
+msgstr "ایجاد نسخه قابل حمل با موفقیت به پایان رسید."
 
 msgctxt "CreatePortableDialog|"
 msgid "Close"
@@ -1219,7 +1481,7 @@ msgstr "شخصی سازی صداها"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
-msgstr "رخداد"
+msgstr "رویداد"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
@@ -1231,15 +1493,15 @@ msgstr "بدون صدا"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
-msgstr "دانلودها افزوده شد"
+msgstr "دانلودها اضافه شدند"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads completed"
-msgstr "دانلودها تمام شده"
+msgstr "دانلودها تمام شدند"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads failed"
-msgstr "دانلودها انجام نشد"
+msgstr "دانلودها ناموفق بودند"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No active downloads"
@@ -1255,7 +1517,7 @@ msgstr "حذف"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Test"
-msgstr "تست"
+msgstr "آزمایش"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Close"
@@ -1267,11 +1529,11 @@ msgstr "حذف دانلودهای انتخاب شده"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remember my choice"
-msgstr "انتخاب من را به یاد داشته باش"
+msgstr "انتخاب من را به خاطر بسپار"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete files"
-msgstr "حذف فایل ها"
+msgstr "حذف فایل‌ها"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Remove from list"
@@ -1283,7 +1545,7 @@ msgstr "انصراف"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "DeleteDownloadsDialog|"
 msgid "Delete this file?"
@@ -1299,11 +1561,11 @@ msgstr "حذف دانلودهای انتخاب شده"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "آیا مطمئن هستید که میخواهید فایل(های) انتخاب شده حذف شود؟"
+msgstr "آیا مطمئن هستید که می‌خواهید فایل(های) انتخاب شده را حذف کنید؟"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Cancel"
@@ -1311,57 +1573,75 @@ msgstr "انصراف"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Download deleting failed"
-msgstr "حذف بارگیری انجام نشد"
+msgstr "حذف دانلود ناموفق بود"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Try again"
-msgstr "دوباره امتحان کنید"
+msgstr "دوباره تلاش کنید"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore"
-msgstr "صرف نظر"
+msgstr "نادیده‌گرفتن"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Ignore all"
-msgstr "صرف نظر از همه"
+msgstr "نادیده‌گرفتن همه"
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "لغو"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "حجم: %1 (فضای دیسک: %2)"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "فضای دیسک: %1"
 
+#, qt-format
 msgctxt "DiskSpace|"
 msgid "Size: %1"
 msgstr "حجم: %1"
 
 msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
+msgstr "نمایش سرعت کل بارگذاری در نماد داک"
+
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr ""
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
 msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
-msgstr ""
+msgstr "اشکال در دانلود"
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
+"نمی‌توان دانلود را ادامه داد. لینک دانلود احتمالاً منقضی شده‌است. تلاش‌های "
+"ادامه ناموفق بودند."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
-msgstr ""
+msgstr "لطفاً سعی کنید لینک دانلود را به‌روزرسانی کنید تا ادامه یابد."
 
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
-msgstr ""
+msgstr "به وبسایت منبع اصلی دانلود بروید و لینک جدید را کپی کنید"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1369,23 +1649,29 @@ msgstr "اینجا کلیک کنید"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
-msgstr ""
+msgstr "به‌روزرسانی دانلود"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "بستن"
 
+msgctxt "DownloadStatus_V2|"
+msgid "Remaining"
+msgstr "باقی مانده"
+
+#. [50%] - myfile.txt
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "[%1%] - %2"
-msgstr ""
+msgstr "[%1%] - %2"
 
 msgctxt "DownloadWindow|"
 msgid "Web page:"
-msgstr ""
+msgstr "صفحه وب:"
 
 msgctxt "DownloadWindow|"
 msgid "Resource URL:"
-msgstr ""
+msgstr "آدرس منبع:"
 
 msgctxt "DownloadWindow|"
 msgid "Saved in"
@@ -1397,7 +1683,7 @@ msgstr "اندازه فایل"
 
 msgctxt "DownloadWindow|"
 msgid "Resume support"
-msgstr "پشتیبانی ازسرگیری"
+msgstr "پشتیبانی از ادامه"
 
 msgctxt "DownloadWindow|"
 msgid "Yes"
@@ -1405,7 +1691,7 @@ msgstr "بله"
 
 msgctxt "DownloadWindow|"
 msgid "No"
-msgstr "نه"
+msgstr "خیر"
 
 msgctxt "DownloadWindow|"
 msgid "Unknown"
@@ -1415,9 +1701,11 @@ msgctxt "DownloadWindow|"
 msgid "Downloaded"
 msgstr "دانلود شده"
 
+#. 50% [200 MB]
+#, qt-format
 msgctxt "DownloadWindow|"
 msgid "%1% [%2]"
-msgstr ""
+msgstr "%1% [%2]"
 
 msgctxt "DownloadWindow|"
 msgid "Speed"
@@ -1429,23 +1717,23 @@ msgstr "زمان باقی مانده"
 
 msgctxt "DownloadWindow|"
 msgid "Open download when it is completed"
-msgstr "دانلود را هنگامی که تکمیل شده است باز کن"
+msgstr "بازکردن دانلود پس از اتمام"
 
 msgctxt "DownloadWindow|"
 msgid "Close this window when the download is completed or stopped"
-msgstr "این پنجره را هنگامی که دانلود تکمیل یا متوقف شده است ببند"
+msgstr "بستن این پنجره پس از اتمام یا توقف دانلود"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to always close by default"
-msgstr ""
+msgstr "به خاطر بسپار که همیشه به طور پیش‌فرض بسته شود"
 
 msgctxt "DownloadWindow|"
 msgid "Remember to never close by default"
-msgstr ""
+msgstr "به خاطر بسپار که هرگز به طور پیش‌فرض بسته نشود"
 
 msgctxt "DownloadWindow|"
 msgid "Hide"
-msgstr "پنهان"
+msgstr "پنهان کردن"
 
 msgctxt "DownloadWindow|"
 msgid "Show in folder"
@@ -1453,7 +1741,7 @@ msgstr "نمایش در پوشه"
 
 msgctxt "DownloadWindow|"
 msgid "Open"
-msgstr "باز کردن"
+msgstr "بازکردن"
 
 msgctxt "DownloadWindow|"
 msgid "Stop"
@@ -1465,11 +1753,11 @@ msgstr "آغاز"
 
 msgctxt "DownloadsItemTools|"
 msgid "Moving"
-msgstr ""
+msgstr "انتقال"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "در حال بررسی برای ویروس ها"
+msgstr "در حال بررسی ویروس‌ها"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
@@ -1481,7 +1769,7 @@ msgstr "در حال تبدیل به mp4"
 
 msgctxt "DownloadsItemTools|"
 msgid "Calculating hash"
-msgstr "محاسبه هش"
+msgstr "محاسبه hash"
 
 msgctxt "DownloadsItemTools|"
 msgid "File is missing"
@@ -1491,9 +1779,62 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "دیسک موجود نیست"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "در حال بررسی فایل‌ها"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "ادغام جریان‌های رسانه‌ای"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "در حال درخواست اطلاعات"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "صف شده"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "متوقف‌شده"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "تمام شده"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "نامشخص"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "duplicates (%1)"
+msgstr "تکراری‌ها (%1)"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "invalid (%1)"
+msgstr "غیرمعتبر (%1)"
+
+#, qt-format
+msgctxt "DownloadsList|"
+msgid "unsupported (%1)"
+msgstr "پشتیبانی‌نشده (%1)"
+
+msgctxt "DownloadsList|"
+msgid "Skipped downloads"
+msgstr "دانلودهای ردشده"
+
+#, qt-format
 msgctxt "DownloadsList|"
 msgid "Download links (%1 selected)"
-msgstr "لینک های دانلود (%1 انتخاب شده است)"
+msgstr "لینک های دانلود (%1 انتخاب شده‌است)"
 
 msgctxt "DownloadsList|"
 msgid "Select all"
@@ -1515,9 +1856,10 @@ msgctxt "DownloadsPage|"
 msgid "No results found for"
 msgstr "نتیجه ای یافت نشد برای"
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "نتیجه ای برای \"%1\" تگ شده یافت نشد"
+msgstr "هیچ نتیجه‌ای با برچسب \"%1\" یافت نشد"
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -1535,9 +1877,15 @@ msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr "لیست دانلود خالی است. افزودن URL دانلود جدید."
 
+#, qt-format
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "اتصال به ریموت %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "جستجو"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1545,27 +1893,29 @@ msgstr "تنظیمات دانلودها"
 
 msgctxt "DownloadsSettings|"
 msgid "Start downloading without confirmation"
-msgstr "شروع به دانلود کردن بدون نیاز به تایید"
+msgstr "شروع به دانلود کردن بدون نیاز به تأیید"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "فایل های حذف شده را به صورت خودکار از لیست حذف کن"
+msgstr "حذف کردن فایل‌های حذف شده به طور خودکار از لیست دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "به طور خودکار دانلودهای تکمیل شده را از لیست حذف کن"
+msgstr "حذف دانلودهای تکمیل شده به طور خودکار از لیست دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "بلافاصله"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "In"
-msgstr ""
+msgstr "در"
 
+#. Automatically remove finished downloads In N days
 msgctxt "DownloadsSettings|"
 msgid "days"
-msgstr ""
+msgstr "روزها"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically retry failed downloads"
@@ -1573,7 +1923,7 @@ msgstr "تکرار خودکار دانلودهای لغو شده"
 
 msgctxt "DownloadsSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "عدم دانلود صفحات وب"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
@@ -1581,15 +1931,15 @@ msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
-msgstr "پوشه پیش فرض دانلود"
+msgstr "پوشه پیش‌فرض دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Choose default download folder automatically"
-msgstr "انتخاب خودکار پوشه پیش فرض دانلود"
+msgstr "انتخاب خودکار پوشه پیش‌فرض دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on file type"
-msgstr "پیشنهاد پوشه ها بر اساس نوع فایل"
+msgstr "پیشنهاد پوشه‌ها بر اساس نوع فایل"
 
 msgctxt "DownloadsSettings|"
 msgid "Suggest folders based on download URL"
@@ -1597,7 +1947,7 @@ msgstr "پیشنهاد پوشه ها بر اساس URL دانلود"
 
 msgctxt "DownloadsSettings|"
 msgid "Fixed default download folder"
-msgstr "پوشه پیش فرض دانلود تصحیح شد"
+msgstr "پوشه پیش‌فرض دانلود ثابت شد"
 
 msgctxt "DownloadsTagMenu|"
 msgid "Untag"
@@ -1625,7 +1975,7 @@ msgstr "اضافه شده"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Paused"
-msgstr "مکث  شده"
+msgstr "مکث شده"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "File is missing"
@@ -1637,7 +1987,39 @@ msgstr "دیسک موجود نیست"
 
 msgctxt "DownloadsViewHeaderColumnsWidthCalc|"
 msgid "Upload paused"
-msgstr ""
+msgstr "آپلود متوقف شده‌است"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Name"
+msgstr "نام"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Size"
+msgstr "حجم"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Status"
+msgstr "وضعیت"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Download"
+msgstr "دانلود"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Upload"
+msgstr "آپلود"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Added"
+msgstr "اضافه شده"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Remaining"
+msgstr "باقیمانده"
+
+msgctxt "DownloadsViewHeader_V2|"
+msgid "Stopped"
+msgstr "متوقف‌شده"
 
 msgctxt "DownloadsViewItem|"
 msgid "Priority"
@@ -1645,7 +2027,7 @@ msgstr "اولویت"
 
 msgctxt "DownloadsViewItem|"
 msgid "Upload paused"
-msgstr ""
+msgstr "آپلود متوقف شده‌اشت"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Restart"
@@ -1653,7 +2035,7 @@ msgstr "شروع مجدد"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open"
-msgstr "باز کردن"
+msgstr "بازکردن"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
@@ -1661,35 +2043,23 @@ msgstr "گزارش مشکل"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
-msgstr ""
+msgstr "فعال کردن تلاش مجدد خودکار برای این نوع خطاها"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Save and complete"
-msgstr ""
+msgstr "ذخیره و تکمیل"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Show downloads"
-msgstr ""
+msgstr "نمایش دانلودها"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Choose files..."
-msgstr ""
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "زیاد"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "معمولی"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "کم"
+msgstr "انتخاب فایل‌ها..."
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
-msgstr ""
+msgstr "تغییر نام فایل"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Move to..."
@@ -1705,11 +2075,11 @@ msgstr "حذف از لیست"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "پخش فایل در هنگام دانلود"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
-msgstr "افزودن منبع"
+msgstr "افزودن منبع جایگزین"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Open download page"
@@ -1725,7 +2095,7 @@ msgstr "بررسی برای بروزرسانی"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Export selected downloads"
-msgstr "بیرون بردن دانلودهای انتخاب شده"
+msgstr "صادر کردن دانلودهای انتخاب شده"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add tag"
@@ -1737,7 +2107,7 @@ msgstr "یکپارچگی فایل"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Schedule"
-msgstr "زمان بندی"
+msgstr "برنامه‌ریزی"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Change URL"
@@ -1753,7 +2123,7 @@ msgstr "تبدیل به mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "انجام ویروس یابی"
+msgstr "انجام ویروس‌یابی"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
@@ -1773,11 +2143,15 @@ msgstr "نمایش اطلاعات"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Files"
-msgstr "فایل ها"
+msgstr "فایل‌ها"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Sequential download"
 msgstr "دانلود ترتیبی"
+
+msgctxt "DownloadsViewItemContextMenu|"
+msgid "Share file"
+msgstr "اشتراک گذاری فایل"
 
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
@@ -1793,11 +2167,11 @@ msgstr "دانلود انجام شد"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Checking files..."
-msgstr "در حال بررسی فایل ها..."
+msgstr "در حال بررسی فایل‌ها..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Merging media streams..."
-msgstr "ادغام جریان رسانه..."
+msgstr "ادغام جریان رسانه‌ای..."
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Requesting info..."
@@ -1809,11 +2183,23 @@ msgstr "صف شده"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Paused"
-msgstr "مکث  شده"
+msgstr "مکث شده"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "حجم فایل نامشخص"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Stopped"
+msgstr "متوقف‌شده"
+
+msgctxt "DownloadsViewItem_V2|"
+msgid "Remaining"
+msgstr "باقی مانده"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Queued"
@@ -1821,7 +2207,7 @@ msgstr "صف شده"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Checking files"
-msgstr "در حال بررسی فایل ها"
+msgstr "در حال بررسی فایل‌ها"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Merging media streams"
@@ -1837,11 +2223,11 @@ msgstr "حجم فایل نامشخص"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Paused"
-msgstr "مکث  شده"
+msgstr "متوقف شده‌است"
 
 msgctxt "DownloadsViewStatusItem|"
 msgid "Complete"
-msgstr "کامل شد"
+msgstr "کامل شده‌است"
 
 msgctxt "EditTagDialog|"
 msgid "Edit tag"
@@ -1853,20 +2239,22 @@ msgstr "برچسب"
 
 msgctxt "EditTagDialog|"
 msgid "Extensions (e.g. \"avi mp3\")"
-msgstr ""
+msgstr "پسوند فایل‌ها(به طور مثال \"avi. mp3\")"
 
 msgctxt "EditTagDialog|"
 msgid ""
 "Extensions that are automatically assigned with this tag for new downloads"
 msgstr ""
+"افزونه‌هایی که به‌طور خودکار با این برچسب برای دانلودهای جدید اختصاص داده "
+"می‌شوند"
 
 msgctxt "EditTagDialog|"
 msgid "Default download folder"
-msgstr "پوشه پیش فرض دانلود"
+msgstr "پوشه پیش‌فرض دانلود"
 
 msgctxt "EditTagDialog|"
 msgid "Open"
-msgstr "باز کردن"
+msgstr "بازکردن"
 
 msgctxt "EditTagDialog|"
 msgid "Cancel"
@@ -1878,7 +2266,7 @@ msgstr "ماکروها"
 
 msgctxt "EditTagDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "EnvTools|"
 msgid "Low battery"
@@ -1886,7 +2274,7 @@ msgstr "باتری ضعیف"
 
 msgctxt "EnvTools|"
 msgid "Data roaming disabled"
-msgstr ""
+msgstr "دیتا رومینگ غیرفعال شده‌است"
 
 msgctxt "EnvTools|"
 msgid "No Internet connection"
@@ -1898,23 +2286,23 @@ msgstr "استفاده از داده موبایل غیر فعال است"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Rename"
-msgstr "تغییر اسم"
+msgstr "تغییر نام"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Overwrite"
-msgstr "جایگزینی"
+msgstr "بازنویسی"
 
 msgctxt "ExistingFileReactionCombobox|"
 msgid "Always ask"
-msgstr "همیشه سوال کن"
+msgstr "همیشه بپرس"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export selected downloads"
-msgstr "بیرون بردن دانلودهای انتخاب شده"
+msgstr "صادر کردن دانلودهای انتخاب شده"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export all downloads"
-msgstr "بیرون بردن تمام دانلودها"
+msgstr "صادر کردن تمام دانلودها"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Save to"
@@ -1928,30 +2316,33 @@ msgctxt "ExportDownloadsDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, qt-format
 msgctxt "ExportDownloadsDialog|"
 msgid "All files (%1)"
-msgstr "تمام فایل ها (%1)"
+msgstr "تمام فایل‌ها (%1)"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export only completed downloads"
-msgstr "بیرون بردن دانلودهای پایان یافته"
+msgstr "صادر کردن دانلودهای پایان یافته"
 
 msgctxt "ExportDownloadsDialog|"
 msgid "Export"
-msgstr "بیرون بردن"
+msgstr "صادر کردن"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 فایل های دانلودها (%2)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Default format"
-msgstr "قالب پیش فرض"
+msgstr "قالب پیش‌فرض"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
 msgstr "لیست URLها"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
 msgstr "فایل های متنی (%1)"
@@ -1960,25 +2351,28 @@ msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
 msgstr "فایل CSV"
 
+#, qt-format
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV files (%1)"
 msgstr "فایل های CSV (%1)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Export"
-msgstr "بیرون بردن"
+msgstr "صادر کردن"
 
 msgctxt "ExportSettingsDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 فایل های تنظیمات (%2)"
 
+#, qt-format
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
-msgstr "تمام فایل ها (%1)"
+msgstr "تمام فایل‌ها (%1)"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Check file integrity"
@@ -1988,6 +2382,7 @@ msgctxt "FileIntegrityDialog|"
 msgid "Hash"
 msgstr "Hash"
 
+#, qt-format
 msgctxt "FileIntegrityDialog|"
 msgid "Calculating %1%"
 msgstr "در حال محاسبه %1%"
@@ -1998,11 +2393,11 @@ msgstr "مقایسه با"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification OK"
-msgstr "اعتبارسنجی مورد تایید است"
+msgstr "تأیید شد"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Verification failed"
-msgstr "اعتبارسنجی انجام نشد"
+msgstr "تأیید نشد"
 
 msgctxt "FileIntegrityDialog|"
 msgid "Close"
@@ -2026,15 +2421,16 @@ msgstr "‏SHA-256"
 
 msgctxt "FileIntegrityPage|"
 msgid "SHA-512"
-msgstr "‏SHA-256: {512?}"
+msgstr "SHA-512"
 
 msgctxt "FileIntegrityPage|"
 msgid "Hash"
 msgstr "‏Hash"
 
+#, qt-format
 msgctxt "FileIntegrityPage|"
 msgid "Calculating %1%"
-msgstr "محاسبه %1%"
+msgstr "درحال محاسبه %1%"
 
 msgctxt "FileIntegrityPage|"
 msgid "Compare with"
@@ -2042,15 +2438,15 @@ msgstr "مقایسه با"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification OK"
-msgstr "اعتبارسنجی مورد تایید است"
+msgstr "تأیید شد"
 
 msgctxt "FileIntegrityPage|"
 msgid "Verification failed"
-msgstr "تاییدیه ناموفق بود"
+msgstr "تأیید نشد"
 
 msgctxt "FileManagerSupportDialog|"
 msgid "No supported file managers found."
-msgstr "مدیریت فایل پشتیبانی شده ای یافت نشد."
+msgstr "هیچ مدیر فایلی پشتیبانی نمی‌شود."
 
 msgctxt "FileName|"
 msgid "Create subfolder"
@@ -2060,13 +2456,14 @@ msgctxt "FileName|"
 msgid "File name"
 msgstr "نام فایل"
 
+#, qt-format
 msgctxt "FileName|"
 msgid "%1 files (*.%2)"
-msgstr ""
+msgstr "%1 فایل‌ها (*.%2)"
 
 msgctxt "FileName|"
 msgid "All files"
-msgstr "تمام فایل ها"
+msgstr "تمام فایل‌ها"
 
 msgctxt "FilePickerPage|"
 msgid "Select folder"
@@ -2078,7 +2475,7 @@ msgstr "انتخاب فایل"
 
 msgctxt "FilePickerPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "FilePickerPage|"
 msgid "Empty folder"
@@ -2102,11 +2499,46 @@ msgstr "ترتیب"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Ascending"
-msgstr "صعودی"
+msgstr "افزایشی"
 
 msgctxt "FilePickerSortDialog|"
 msgid "Descending"
-msgstr "نزولی"
+msgstr "کاهشی"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "ترتیب"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "قدیمی"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "جدیدترین"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "براساس اندازه: کوچک"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "براساس اندازه: بزرگ"
 
 msgctxt "FileType|"
 msgid "File type:"
@@ -2114,19 +2546,20 @@ msgstr "نوع فایل:"
 
 msgctxt "FilesExistsDialog|"
 msgid "Warning: file exists already"
-msgstr ""
+msgstr "هشدار: فایل از قبل موجود است"
 
 msgctxt "FilesExistsDialog|"
 msgid "Remember my choice for all downloads"
-msgstr "انتخابم را برای تمام دانلود ها به یاد داشته باش"
+msgstr "انتخاب من را برای همه دانلودها به خاطر بسپار"
 
+#, qt-format
 msgctxt "FilesExistsDialog|"
 msgid "Rename (%1)"
-msgstr "تغییر اسم (%1)"
+msgstr "تغییر نام (%1)"
 
 msgctxt "FilesExistsDialog|"
 msgid "Overwrite"
-msgstr "جایگزینی"
+msgstr "بازنویسی"
 
 msgctxt "FilesExistsDialog|"
 msgid "Abort"
@@ -2150,7 +2583,7 @@ msgstr "اولویت"
 
 msgctxt "FilesTree|"
 msgid "Normal"
-msgstr "معمولی"
+msgstr "عادی"
 
 msgctxt "FilesTree|"
 msgid "High"
@@ -2162,7 +2595,7 @@ msgstr "کم"
 
 msgctxt "FilesTree|"
 msgid "Files"
-msgstr "فایل ها"
+msgstr "فایل‌ها"
 
 msgctxt "FilesTree|"
 msgid "Select all"
@@ -2174,15 +2607,15 @@ msgstr "انتخاب هیچ کدام"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
-msgstr ""
+msgstr "اولویت بالا"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Normal priority"
-msgstr ""
+msgstr "اولویت عادی"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Low priority"
-msgstr ""
+msgstr "اولویت کم"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "Skip"
@@ -2212,6 +2645,52 @@ msgctxt "FilesTreeContextMenu|"
 msgid "Convert to mp4"
 msgstr "تبدیل به mp4"
 
+msgctxt "FilesTreeHeader_V2|"
+msgid "Name"
+msgstr "نام"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Size"
+msgstr "حجم"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Status"
+msgstr "وضعیت"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Completed"
+msgstr "تمام شده‌است"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Normal"
+msgstr "عادی"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "High"
+msgstr "زیاد"
+
+msgctxt "FilesTreeHeader_V2|"
+msgid "Low"
+msgstr "کم"
+
+msgctxt "FilesTreeItem_V2|"
+msgid "Completed"
+msgstr "تمام شده‌است"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "نام"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "اولویت"
+
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
 msgstr "ماکروها"
@@ -2219,10 +2698,6 @@ msgstr "ماکروها"
 msgctxt "GeneralSettings|"
 msgid "General"
 msgstr "عمومی"
-
-msgctxt "GeneralSettings|"
-msgid "Choose theme"
-msgstr "انتخاب پوسته"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
@@ -2237,24 +2712,44 @@ msgid "Suggest folders based on file type"
 msgstr "پیشنهاد پوشه ها بر اساس نوع فایل"
 
 msgctxt "GeneralSettings|"
+msgid "Theme"
+msgstr "پوسته"
+
+msgctxt "GeneralSettings|"
 msgid "A light theme will be used, if the system theme is unknown."
-msgstr ""
+msgstr "اگر پوسته سیستم ناشناخته باشد، از پوسته روشن استفاده خواهد شد."
+
+msgctxt "GeneralSettings|"
+msgid "UI style"
+msgstr "سبک رابط کاربری"
+
+msgctxt "GeneralSettings|"
+msgid "Classic"
+msgstr "کلاسیک"
 
 msgctxt "GeneralSettings|"
 msgid "Your language is not listed or the translation isn't complete?"
-msgstr "زبان شما در لیست موجود نیست یا ترجمه آن کامل نیست؟"
+msgstr "زبان شما در لیست نیست یا ترجمه کامل نیست؟"
 
 msgctxt "GeneralSettings|"
 msgid "Let's fix it!"
-msgstr "آن را بهینه سازی کنید!"
+msgstr "بیایید آن را درست کنیم!"
+
+msgctxt "GeneralSettings|"
+msgid "Options"
+msgstr "گزینه ها"
+
+msgctxt "GeneralSettings|"
+msgid "Launch at startup (minimized)"
+msgstr "راه‌اندازی در شروع (در حالت کوچک شده)"
 
 msgctxt "GeneralSettings|"
 msgid "Default download folder"
-msgstr "پوشه پیش فرض دانلود"
+msgstr "پوشه پیش‌فرض دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Choose default download folder automatically"
-msgstr "انتخاب خودکار پوشه پیش فرض دانلود"
+msgstr "انتخاب خودکار پوشه پیش‌فرض دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Suggest folders based on download URL"
@@ -2262,7 +2757,7 @@ msgstr "پیشنهاد پوشه ها بر اساس URL دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "پوشه پیش فرض دانلود تصحیح شد"
+msgstr "پوشه پیش‌فرض دانلود ثابت شد"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -2286,39 +2781,41 @@ msgstr "فعال سازی پنجره های دانلود مستقل"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "فایل های حذف شده را به صورت خودکار از لیست حذف کن"
+msgstr "حذف کردن فایل‌های حذف شده به طور خودکار از لیست دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "به طور خودکار دانلودهای تکمیل شده را از لیست حذف کن"
+msgstr "حذف دانلودهای تکمیل شده به طور خودکار از لیست دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Immediately"
-msgstr ""
+msgstr "بلافاصله"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "In"
-msgstr ""
+msgstr "در"
 
+#. Automatically remove finished downloads In N days
 msgctxt "GeneralSettings|"
 msgid "days"
-msgstr ""
+msgstr "روزها"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically retry failed downloads"
-msgstr "تکرار خودکار دانلودهای لغو شده"
+msgstr "تکرار خودکار دانلودهای ناموفق شده"
 
 msgctxt "GeneralSettings|"
 msgid "Do not download web pages"
-msgstr ""
+msgstr "عدم دانلود صفحات وب"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "از زمان سرور برای ایجاد فایل استفاده کن"
+msgstr "استفاده از زمان سرور برای ایجاد فایل"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "حداکثر تعداد آدرسها در دسته دانلود"
+msgstr "حداکثر تعداد آدرس‌ها در دسته دانلود"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -2331,6 +2828,14 @@ msgstr "بررسی خودکار بروزرسانی"
 msgctxt "GeneralSettings|"
 msgid "Install updates automatically"
 msgstr "نصب خودکار بروزرسانی"
+
+msgctxt "GeneralSettings|"
+msgid "Mark downloaded files"
+msgstr "علامت گذاری فایل های دانلود شده"
+
+msgctxt "GeneralSettings|"
+msgid "New"
+msgstr "جدید"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2346,11 +2851,36 @@ msgstr "استفاده از شبکه موبایل"
 
 msgctxt "GeneralSettings2|"
 msgid "Allow data roaming"
-msgstr ""
+msgstr "اجازه دسترسی به داده‌های رومینگ"
 
 msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
+"استفاده از داده موبایل در حین رومینگ ممکن است باعث هزینه‌های اضافی شود."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "انتخاب پوسته"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "اگر پوسته سیستم ناشناخته باشد، از پوسته روشن استفاده خواهد شد."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "سبک رابط کاربری"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "جدید"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "کلاسیک"
 
 msgctxt "GeneralTab|"
 msgid "Status"
@@ -2404,6 +2934,7 @@ msgctxt "GeneralTab|"
 msgid "Added at:"
 msgstr "اضافه شده در:"
 
+#, qt-format
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
 msgstr "%1 از %2"
@@ -2420,6 +2951,57 @@ msgctxt "GeneralTab|"
 msgid "Progress:"
 msgstr "پیشرفت:"
 
+msgctxt "GeneralTab_V2|"
+msgid "Downloaded:"
+msgstr "دانلود شده:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Uploaded"
+msgstr "آپلود شده"
+
+msgctxt "GeneralTab_V2|"
+msgid "ratio"
+msgstr "نسبت"
+
+msgctxt "GeneralTab_V2|"
+msgid "Added at:"
+msgstr "اضافه شده در:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Download speed:"
+msgstr "سرعت دانلود:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Upload speed:"
+msgstr "سرعت آپلود:"
+
+msgctxt "GeneralTab_V2|"
+msgid "Web page"
+msgstr "صفحه وب"
+
+msgctxt "GeneralTab_V2|"
+msgid "File"
+msgstr "فایل"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "باقی مانده"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "ذخیره شده در"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "پیشرفت"
+
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
 msgstr "‏MD5"
@@ -2434,7 +3016,7 @@ msgstr "‏SHA-256"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "SHA-512"
-msgstr "‏SHA-256: {512?}"
+msgstr "SHA-512"
 
 msgctxt "ImportDialog|"
 msgid "Import"
@@ -2444,105 +3026,89 @@ msgctxt "ImportDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "All files (%1)"
-msgstr "تمام فایل ها (%1)"
+msgstr "تمام فایل‌ها (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "Text files (%1)"
-msgstr "فایل های متنی (%1)"
+msgstr "فایل‌های متنی (%1)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
 msgstr "%1 فایل های دانلودها (%2)"
 
+#, qt-format
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
 msgstr "%1 فایل های تنظیمات %2"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
 msgstr "خطا: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to paste URLs from the file"
-msgstr "قرار دادن URLها از فایل موفق نبود"
+msgstr "جای‌گذاری URLها از فایل موفق نبود"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import the list of URLs from the file: %1"
 msgstr "عدم امکان وارد کردن لیست URLها از فایل: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to export"
-msgstr "عدم امکان بیرون بردن"
+msgstr "عدم امکان صادر کردن"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to export to the file: %1"
-msgstr "عدم امکان بیرون بردن به فایل: %1"
+msgstr "عدم امکان صادر کردن به فایل: %1"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Failure to import"
 msgstr "عدم امکان وارد کردن"
 
+#, qt-format
 msgctxt "ImportExportFailedDialog|"
 msgid "Unable to import from the file: %1"
 msgstr "عدم امکان وارد کردن از فایل: %1"
 
 msgctxt "IntegrationBanner|"
 msgid "Set as Default"
-msgstr "تنظیم به عنوان پیش فرض"
+msgstr "تنظیم به عنوان پیش‌فرض"
 
 msgctxt "IntegrationBanner|"
 msgid "Don't ask again"
-msgstr "دوباره سوال نکن"
+msgstr "دوباره نپرس"
 
 msgctxt "InvalidSettingsMessageDialog|"
 msgid ". Close anyway?"
-msgstr ". حتما بسته شود؟"
+msgstr "به هر حال بسته شود؟"
 
 msgctxt "LanguageDialog|"
 msgid "Language"
 msgstr "زبان"
 
+msgctxt "LanguageSelection|"
+msgid "Language"
+msgstr "زبان"
+
+msgctxt "LanguageSelection|"
+msgid "Unknown"
+msgstr "ناشناخته"
+
 msgctxt "LeftDrawer|"
 msgid "remote control"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "مرورگر"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "تنظیمات"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "ارتباط با پشتیبانی"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr ""
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "درباره"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "خروج"
+msgstr "ریموت کنترل"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -2554,12 +3120,13 @@ msgstr "افزودن"
 
 msgctxt "ListEditor|"
 msgid "Hide"
-msgstr "پنهان"
+msgstr "پنهان کردن"
 
 msgctxt "MacrosMenu|"
 msgid "%content_type% - content type (e.g. \"Music\")"
 msgstr "%content_type% - نوع محتوا (برای مثال \"موسیقی\")"
 
+#, qt-format
 msgctxt "MacrosMenu|"
 msgid "%server% - name of the server (e.g. \"%1\")"
 msgstr "%server% - نام سرور (برای مثال %1)"
@@ -2590,7 +3157,7 @@ msgstr "همه"
 
 msgctxt "MainFiltersBar|"
 msgid "Missing Files"
-msgstr "فایل های گم شده"
+msgstr "فایل های گمشده"
 
 msgctxt "MainFiltersBar|"
 msgid "Active"
@@ -2602,27 +3169,23 @@ msgstr "تمام شده"
 
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
-msgstr ""
-
-msgctxt "MainFiltersBar|"
-msgid "OK to remove tag?"
-msgstr ""
+msgstr "ناتمام"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from clipboard"
-msgstr ""
+msgstr "جای‌گذاری URL از کلیپ‌بورد"
 
 msgctxt "MainMenu|"
 msgid "Paste urls from file"
-msgstr ""
+msgstr "جای‌گذاری URL از فایل"
 
 msgctxt "MainMenu|"
 msgid "Export/Import"
-msgstr "بیرون بردن/وارد کردن"
+msgstr "صادر کردن/وارد کردن"
 
 msgctxt "MainMenu|"
 msgid "Export all downloads"
-msgstr "بیرون بردن تمام دانلودها"
+msgstr "صادر کردن تمام دانلودها"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
@@ -2630,7 +3193,7 @@ msgstr "وارد کردن دانلودها"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
-msgstr "بیرون بردن تنظیمات"
+msgstr "صادر کردن تنظیمات"
 
 msgctxt "MainMenu|"
 msgid "Import settings"
@@ -2650,15 +3213,15 @@ msgstr "ارتباط با پشتیبانی"
 
 msgctxt "MainMenu|"
 msgid "Auto shutdown"
-msgstr ""
+msgstr "خاموش‌کردن خودکار"
 
 msgctxt "MainMenu|"
 msgid "Check for updates..."
-msgstr ""
+msgstr "بررسی برای به‌روزرسانی‌ها..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "ارسال گزارش باگ"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
@@ -2672,13 +3235,15 @@ msgctxt "MainMenu|"
 msgid "Shutdown"
 msgstr "خاموش"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
-msgstr ""
+msgstr "قطع اتصال از ریموت %1"
 
+#, qt-format
 msgctxt "MainMenu|"
 msgid "Connect to remote %1"
-msgstr ""
+msgstr "اتصال به ریموت %1"
 
 msgctxt "MainMenu|"
 msgid "Create portable version"
@@ -2696,22 +3261,103 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "خروج"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "مرورگر"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "ارتباط با پشتیبانی"
+
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "ارسال گزارش باگ"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "قطع اتصال از ریموت %1"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "اتصال به ریموت %1"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "درباره"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "خروج"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "حالت حلزونی (کند) بدون توقف دانلودها، پهنای باند را آزاد می‌کند."
+msgstr "حالت حلزونی بدون توقف دانلودها، پهنای باند را آزاد می‌کند."
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode"
-msgstr "حالت حلزونی (کند)"
+msgstr "حالت حلزونی"
 
+#, qt-format
 msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
-msgstr[0] "%n دانلود انتخاب شده است."
+msgstr[0] "%n دانلود انتخاب شده‌است."
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "حجم کل:"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Unlimited"
+msgstr "نامحدود"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "حالت حلزونی بدون توقف دانلودها، پهنای باند را آزاد می‌کند."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Snail mode"
+msgstr "حالت حلزونی"
+
+msgctxt "MainStatusBar_V2|"
+msgid "Set the traffic usage mode"
+msgstr "تنظیم حالت مصرف ترافیک"
+
+#, qt-format
+msgctxt "MainStatusBar_V2|"
+msgid "%n downloads selected."
+msgid_plural "%n downloads selected."
+msgstr[0] "%n دانلود انتخاب شده‌است."
+
+msgctxt "MainStatusBar_V2|"
+msgid "Total size:"
+msgstr "حجم کل:"
+
+msgctxt "MainStatusBar_V2|"
+msgid ""
+"Snail Mode puts active downloads into sleep mode, freeing up as much "
+"Internet bandwidth as possible. When you turn it off, all active downloads "
+"will resume at normal speed. Snail Mode is especially useful when your "
+"Internet is slow and you need to make a call, for example."
+msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -2727,11 +3373,11 @@ msgstr "شروع انتخاب شده ها"
 
 msgctxt "MainToolbar|"
 msgid "Pause all"
-msgstr "مکث  همه"
+msgstr "مکث همه"
 
 msgctxt "MainToolbar|"
 msgid "Pause selected"
-msgstr "مکث  انتخاب شده ها"
+msgstr "مکث انتخاب شده ها"
 
 msgctxt "MainToolbar|"
 msgid "Delete selected"
@@ -2743,11 +3389,11 @@ msgstr "انتقال به..."
 
 msgctxt "MainToolbar|"
 msgid "Move downloads up"
-msgstr ""
+msgstr "بالا بردن دانلودها"
 
 msgctxt "MainToolbar|"
 msgid "Move downloads down"
-msgstr ""
+msgstr "پایین آوردن دانلودها"
 
 msgctxt "MainToolbar|"
 msgid "Main menu"
@@ -2755,11 +3401,51 @@ msgstr "منوی اصلی"
 
 msgctxt "MainToolbar|"
 msgid "Switch to user-defined sorting of the download list?"
-msgstr ""
+msgstr "آیا به مرتب‌سازی لیست دانلود بر اساس کاربر تغییر دهید؟"
 
 msgctxt "MainToolbar|"
 msgid "remote control"
-msgstr ""
+msgstr "کنترل ریموت"
+
+msgctxt "MainToolbar_V2|"
+msgid "Select"
+msgstr "انتخاب"
+
+msgctxt "MainToolbar_V2|"
+msgid "Sort"
+msgstr "ترتیب"
+
+msgctxt "MainToolbar_V2|"
+msgid "Filters"
+msgstr "فیلترها"
+
+msgctxt "MainToolbar_V2|"
+msgid "Start"
+msgstr "آغاز"
+
+msgctxt "MainToolbar_V2|"
+msgid "Pause"
+msgstr "مکث"
+
+msgctxt "MainToolbar_V2|"
+msgid "Remove"
+msgstr "حذف"
+
+msgctxt "MainToolbar_V2|"
+msgid "Move files"
+msgstr "انتقال فایل‌ها"
+
+msgctxt "MainToolbar_V2|"
+msgid "Add download"
+msgstr "افزودن دانلود"
+
+msgctxt "MainToolbar_V2|"
+msgid "Menu and settings"
+msgstr "منو و تنظیمات"
+
+msgctxt "MainToolbar_V2|"
+msgid "Switch to user-defined sorting of the download list?"
+msgstr "آیا به مرتب‌سازی لیست دانلود بر اساس کاربر تغییر دهید؟"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2775,7 +3461,7 @@ msgstr "مقدار سفارشی"
 
 msgctxt "MaxURatioComboBox|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "MaxURatioComboBox|"
 msgid "CANCEL"
@@ -2791,15 +3477,16 @@ msgstr "عدد باید بیشتر از ۰ باشد."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "آماده برای پخش"
 
+#, qt-format
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 آماده پخش است"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "پخش"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -2829,6 +3516,7 @@ msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
 msgstr "نادیده گرفتن"
 
+#, qt-format
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip all (%1)"
 msgstr "نادیده گرفتن همه (%1)"
@@ -2843,15 +3531,15 @@ msgstr "کارکرد داده همراه"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Waiting for Wi-Fi to start download."
-msgstr "در انتظار شبکه بیسیم برای شروع دانلود."
+msgstr "در انتظار Wi-Fi برای شروع دانلود."
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Would you like to enable usage of mobile data? *"
-msgstr "تمایل دارید میزان استفاده از مصرف داده را فعال کنید؟ *"
+msgstr "آیا می‌خواهید استفاده از داده‌های موبایل را فعال کنید؟*"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Don't ask again"
-msgstr "دوباره سوال نکن"
+msgstr "دوباره نپرس"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Yes"
@@ -2859,7 +3547,7 @@ msgstr "بله"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "No"
-msgstr "نه"
+msgstr "خیر"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "* additional charges may apply"
@@ -2869,10 +3557,12 @@ msgctxt "MovingFailedDialog|"
 msgid "Moving download failed"
 msgstr "انتقال دانلود انجام نشد"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Error: %1"
 msgstr "خطا: %1"
 
+#, qt-format
 msgctxt "MovingFailedDialog|"
 msgid "Unable to move: %1"
 msgstr "امکان انتقال وجود ندارد: %1"
@@ -2927,7 +3617,7 @@ msgstr "مسیر دارای کاراکترهای غیر معتبر است"
 
 msgctxt "Mp3ConverterDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Convert to mp3"
@@ -2939,7 +3629,7 @@ msgstr "تبدیل به mp3 با نرخ بیتی قابل تنظیم"
 
 msgctxt "Mp3ConverterPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "Mp3ConverterPage|"
 msgid "Save to"
@@ -2983,7 +3673,7 @@ msgstr "مسیر دارای کاراکترهای غیر معتبر است"
 
 msgctxt "Mp4ConverterDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Convert to mp4"
@@ -2991,7 +3681,7 @@ msgstr "تبدیل به mp4"
 
 msgctxt "Mp4ConverterPage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "Mp4ConverterPage|"
 msgid "Save to"
@@ -3000,6 +3690,11 @@ msgstr "ذخیره در"
 msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "مسیر دارای کاراکترهای غیر معتبر است"
+
+#, fuzzy
+msgctxt "MySearchField|"
+msgid "Search"
+msgstr "جستجو"
 
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
@@ -3031,7 +3726,7 @@ msgstr "&کپی"
 
 msgctxt "NativeMenuBar|"
 msgid "&Paste"
-msgstr "&چسباندن"
+msgstr "&جای‌گذاری"
 
 msgctxt "NativeMenuBar|"
 msgid "Downloads"
@@ -3067,23 +3762,27 @@ msgstr "شبکه"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy"
-msgstr "پراکسی"
+msgstr "پروکسی"
 
 msgctxt "NetworkSettings|"
 msgid "System proxy"
-msgstr "پراکسی سیستم"
+msgstr "پروکسی سیستم"
 
 msgctxt "NetworkSettings|"
 msgid "No proxy"
-msgstr "بدون پراکسی"
+msgstr "بدون پروکسی"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
 msgstr "تنظیم دستی:"
 
 msgctxt "NetworkSettings|"
+msgid "Configure manually"
+msgstr "تنظیم دستی"
+
+msgctxt "NetworkSettings|"
 msgid "Address"
-msgstr "نشانی"
+msgstr "آدرس"
 
 msgctxt "NetworkSettings|"
 msgid "Port"
@@ -3111,11 +3810,11 @@ msgstr "‏SOCKS5:"
 
 msgctxt "NetworkSettings|"
 msgid "Invalid proxy settings"
-msgstr "تنظیمات پراکسی نامعتبر است"
+msgstr "تنظیمات پروکسی نامعتبر است"
 
 msgctxt "NetworkSettings|"
 msgid "Proxy settings"
-msgstr "تنظیمات پراکسی"
+msgstr "تنظیمات پروکسی"
 
 msgctxt "NetworkSettings|"
 msgid "HTTP"
@@ -3147,7 +3846,7 @@ msgstr "‏KB/s"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Please enter numbers only"
-msgstr "لطفا فقط عدد وارد کنید"
+msgstr "لطفاً فقط عدد وارد کنید"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "Custom value"
@@ -3155,7 +3854,7 @@ msgstr "مقدار سفارشی"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "NetworkSpeedLimitComboBox|"
 msgid "CANCEL"
@@ -3171,41 +3870,45 @@ msgstr "عدد باید بیشتر از ۰ باشد."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "This download may not support resuming."
-msgstr ""
+msgstr "این دانلود ممکن است از سرگیری را پشتیبانی نکند."
 
 msgctxt "NoResumeSupportBlock|"
 msgid "Prevent sleep mode when downloading files that don't support resuming"
 msgstr ""
+"جلوگیری از حالت خواب هنگام دانلود فایل‌هایی که از سرگیری پشتیبانی نمی‌کنند"
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "اعلان‌های متفرقه"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "آماده‌ی پخش"
 
+#, qt-format
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
-msgstr ""
+msgstr "%1 دسترسی‌های لازم را ندارد"
 
 msgctxt "OsPermissionsDialog|"
 msgid "(required)"
-msgstr ""
+msgstr "(مورد‌نیاز)"
 
 msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
 msgstr ""
+"شما می‌توانید این مجوزها را از طریق صفحه جزئیات برنامه در تنظیمات سیستم خود "
+"اعطا کنید."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
-msgstr ""
+msgstr "دیگر نمایش داده نشود"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Grant permissions"
-msgstr ""
+msgstr "اعطای دسترسی‌ها"
 
 msgctxt "OsPermissionsDialog|"
 msgid "Quit"
@@ -3221,73 +3924,110 @@ msgstr "اطلاعات"
 
 msgctxt "Page|"
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 msgctxt "Page|"
 msgid "Files"
-msgstr "فایل ها"
+msgstr "فایل‌ها"
 
 msgctxt "Page|"
 msgid "Connections"
 msgstr "ارتباطات"
 
-msgctxt "PlayAsap|"
-msgid "Play file while it is still downloading"
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "تأیید"
+
+#. Browse for a file
+msgctxt "PickFileButton|"
+msgid "Browse..."
 msgstr ""
 
+msgctxt "PlayAsap|"
+msgid "Play file while it is still downloading"
+msgstr "پخش فایل در حالی که هنوز در حال دانلود است"
+
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
-msgstr ""
+msgstr "از استفاده از افزونه %1 لذت می‌برید؟"
 
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
 msgstr ""
+"ما می‌خواهیم از شما درخواست کنیم که به این افزونه کمک کنید تا به کاربران "
+"بالقوه‌اش برسد."
 
+#, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
 msgstr ""
+"لطفاً از شبکه‌های اجتماعی و انجمن‌های مورد علاقه خود استفاده کنید تا دیگران "
+"را از %1 و %2 مطلع کنید."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
-msgstr ""
+msgstr "بعداً یادآوری کن"
 
 msgctxt "PluginBannerDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "PluginsDepsInstallerView|"
 msgid "Installed."
-msgstr "نصب شده."
+msgstr "نصب شده‌است."
 
 msgctxt "PluginsPage|"
 msgid "Recently installed dependency"
-msgstr ""
+msgstr "وابستگی تازه نصب‌شده است"
 
 msgctxt "PluginsPage|"
 msgid "Add-ons"
-msgstr "افزونه ها"
+msgstr "افزونه‌ها"
 
 msgctxt "PluginsPage|"
-msgid "Check for Updates"
-msgstr "بررسی برای بروزرسانی ها"
+msgid "Check for updates"
+msgstr "بررسی برای بروزرسانی‌ها"
 
 msgctxt "PluginsPage|"
-msgid "Install Add-on From File..."
+msgid "Install add-on from file..."
 msgstr "نصب افزونه از فایل..."
 
 msgctxt "PluginsPage|"
-msgid "Update Add-ons Automatically"
-msgstr "بروزرسانی افزونه ها به طور خودکار"
+msgid "Update add-ons automatically"
+msgstr "بروزرسانی افزونه‌ها به طور خودکار"
 
 msgctxt "PluginsPage|"
-msgid "Reset All Add-ons to Update Automatically"
+msgid "Reset all add-ons to update automatically"
+msgstr "بازنشانی تمامی افزونه‌ها برای به‌روزرسانی خودکار"
+
+msgctxt "PluginsPage|"
+msgid "Allow add-ons to use web browser cookies"
 msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
+msgstr "در حال به‌روزرسانی افزونه‌های نصب‌شده..."
+
+msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr ""
+
+#, fuzzy
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "نیاز به راه‌اندازی مجدد است"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -3298,9 +4038,10 @@ msgctxt "PluginsPage|"
 msgid "Install add-on from file"
 msgstr "نصب افزونه از فایل"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr ""
+msgstr "اطلاعات بیشتر در مورد افزونه‌های %1"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3310,13 +4051,14 @@ msgctxt "PluginsPage|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 add-ons files"
-msgstr ""
+msgstr "فایل‌های افزونه‌های %1"
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
-msgstr ""
+msgstr "نصب افزونه ناموفق بود"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -3324,39 +4066,40 @@ msgstr "هشدار!"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permissions:"
-msgstr ""
+msgstr "افزونه درخواست دسترسی‌های خطرناک را دارد:"
 
 msgctxt "PluginsPage|"
 msgid "Add-on requests dangerous permission:"
-msgstr ""
+msgstr "افزونه درخواست دسترسی خطرناک را دارد:"
 
 msgctxt "PluginsPage|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "لطفا فقط از منابع مطمئن افزونه نصب کنید."
+msgstr "لطفاً فقط از منابع مطمئن افزونه نصب کنید."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "آیا مایل به ادامه نصب هستید؟"
 
 msgctxt "PluginsPage|"
 msgid "The following required components are missing:"
-msgstr ""
+msgstr "اجزای مورد نیاز زیر از دست رفته‌اند:"
 
+#, qt-format
 msgctxt "PluginsPage|"
 msgid "%1 is required."
 msgstr "%1 مورد نیاز است."
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "آیا مایلید آنها را نصب کنید؟"
 
 msgctxt "PluginsPage|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "آیا مایل به نصب آن هستید؟"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
-msgstr ""
+msgstr "هیچ به‌روزرسانی یافت نشد"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
@@ -3366,47 +4109,53 @@ msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
 msgstr "هشدار!"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permissions:"
-msgstr ""
+msgstr "نسخه جدید افزونه %1 درخواست دسترسی‌های خطرناک را دارد:"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requests dangerous permission:"
-msgstr ""
+msgstr "نسخه جدید افزونه %1 درخواست دسترسی خطرناک را دارد:"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Please install add-ons from trusted sources only."
-msgstr "لطفا فقط از منابع مطمئن افزونه نصب کنید."
+msgstr "لطفاً فقط از منابع مطمئن افزونه نصب کنید."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to continue the installation?"
-msgstr ""
+msgstr "آیا مایل به ادامه نصب هستید؟"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid ""
 "New version of %1 add-on requires additional components:\n"
 "%2"
 msgstr ""
+"نسخه جدید افزونه %1 نیازمند اجزای اضافی است:\n"
+" %2"
 
+#, qt-format
 msgctxt "PluginsUpdateUiManager|"
 msgid "New version of %1 add-on requires %2."
-msgstr ""
+msgstr "نسخه جدید افزونه %1 نیازمند %2 است."
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install them?"
-msgstr ""
+msgstr "آیا مایل به نصب آنها هستید؟"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Would you like to install it?"
-msgstr ""
+msgstr "آیا مایل به نصب آن هستید؟"
 
 msgctxt "PluginsViewItem|"
-msgid "Allow Automatic Updates"
+msgid "Allow automatic updates"
 msgstr "اجازه برای بروزرسانی های خودکار"
 
 msgctxt "PluginsViewItem|"
-msgid "Check for Updates"
-msgstr "بررسی برای بروزرسانی ها"
+msgid "Check for updates"
+msgstr "بررسی برای بروزرسانی‌ها"
 
 msgctxt "PluginsViewItem|"
 msgid "Remove"
@@ -3416,13 +4165,14 @@ msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "در حال بروزرسانی..."
 
+#, qt-format
 msgctxt "PluginsViewItem|"
 msgid "Version: %1"
 msgstr "نسخه: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
-msgstr ""
+msgstr "موافق به حذف کردن؟"
 
 msgctxt "PreferredFileTypeCombobox|"
 msgid "Audio"
@@ -3434,7 +4184,7 @@ msgstr "ویدیو"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Lowest"
-msgstr "پایین ترین"
+msgstr "پایین‌ترین"
 
 msgctxt "PreferredVideoQualityCombobox|"
 msgid "Highest"
@@ -3444,15 +4194,16 @@ msgctxt "PrivacyDialog|"
 msgid "User agreement"
 msgstr "توافق نامه کاربر"
 
+#, qt-format
 msgctxt "PrivacyDialog|"
 msgid ""
 "A bug report will be sent to the server and used to improve %1 performance. "
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"یک گزارش باگ به سرور ارسال و برای بهبود عملکرد %1 استفاده خواهد شد. ما داده "
-"های شخصی شما را جمع آوری نمی کنیم و داده ها را با برنامه های شخص ثالث به "
-"اشتراک نمی گذاریم."
+"گزارش خطا به سرور ارسال می‌شود و برای بهبود عملکرد %1 استفاده می‌شود. ما "
+"داده‌های شخصی شما را جمع‌آوری نمی‌کنیم و داده‌ها را با اشخاص ثالث به اشتراک "
+"نمی‌گذاریم."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -3466,12 +4217,16 @@ msgctxt "PrivacyDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+msgctxt "ProgressBar_V2|"
+msgid "n/a"
+msgstr "نامشخص"
+
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
 "languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) "
 "to get proper UI layout."
 msgid "QT_LAYOUT_DIRECTION"
-msgstr ""
+msgstr "RTL"
 
 msgctxt "QObject|"
 msgid "Unexpected error"
@@ -3479,11 +4234,11 @@ msgstr "خطای غیرمنتظره"
 
 msgctxt "QObject|"
 msgid "Service connection terminated."
-msgstr "ارتباط سرویس قطع شده است."
+msgstr "ارتباط سرویس قطع شده‌است."
 
 msgctxt "QObject|"
 msgid "App backend's server listen failed."
-msgstr "ارتباط بخش پشتی سرور نرم افزار انجام نشد."
+msgstr "ارتباط بخش پشتی سرور نرم‌افزار انجام نشد."
 
 msgctxt "QObject|"
 msgid "Error"
@@ -3505,6 +4260,7 @@ msgctxt "QObject|"
 msgid "Failed to initialize app state manager."
 msgstr "تنظیم اولیه مدیر وضعیت برنامه انجام نشد."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "\n"
@@ -3518,13 +4274,20 @@ msgid "Enter URL"
 msgstr "ورود URL"
 
 msgctxt "QObject|"
+msgid "Drag-and-drop URL"
+msgstr "کشیدن و رها کردن URL"
+
+#, qt-format
+msgctxt "QObject|"
 msgid "Sorry this device is not supported by %1."
 msgstr "متاسفانه این دستگاه توسط %1 پشتیبانی نمی شود."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
-msgstr "%1 در تنظیم اولیه انجام نشد. لطفا از ابتدا نصب نمایید."
+msgstr "%1 در تنظیم اولیه انجام نشد. لطفاً از ابتدا نصب نمایید."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Reason: %1"
 msgstr "دلیل: %1"
@@ -3541,6 +4304,7 @@ msgctxt "QObject|"
 msgid "Show main window"
 msgstr "نمایش پنجره اصلی"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "About %1"
 msgstr "درباره %1"
@@ -3550,92 +4314,118 @@ msgid "Quit"
 msgstr "خروج"
 
 msgctxt "QObject|"
+msgid "Preferences..."
+msgstr "تنظیمات..."
+
+msgctxt "QObject|"
+msgid "Check for updates..."
+msgstr "بررسی برای به‌روزرسانی‌ها..."
+
+#, qt-format
+msgctxt "QObject|"
 msgid "%1 B"
 msgstr "%1 بایت"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB"
 msgstr "%1 کیلوبایت"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB"
 msgstr "%1 مگابایت"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB"
 msgstr "%1 گیگابایت"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB"
 msgstr "%1 ترابایت"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K"
 msgstr "‏%1 K"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M"
 msgstr "‏%1 M"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G"
 msgstr "%1 گیگ"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T"
 msgstr "%1 ترا"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr ""
+msgstr "%1 B/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr ""
+msgstr "%1 MB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr ""
+msgstr "%1 GB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr ""
+msgstr "%1 TB/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 K/s"
-msgstr ""
+msgstr "%1 K/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 M/s"
-msgstr ""
+msgstr "%1 M/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 G/s"
-msgstr ""
+msgstr "%1 G/s"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 T/s"
-msgstr ""
+msgstr "%1 T/s"
 
 msgctxt "QObject|"
 msgid "Download complete"
-msgstr "دانلود انجام شد"
+msgstr "دانلود تکمیل شد"
 
 msgctxt "QObject|"
 msgid "Downloads complete"
-msgstr "دانلودها انجام شدند"
+msgstr "دانلودها تکمیل شدند"
 
 msgctxt "QObject|"
 msgid "Download failed"
-msgstr "دانلود انجام نشد"
+msgstr "دانلود ناموفق بود"
 
 msgctxt "QObject|"
 msgid "Downloads failed"
-msgstr "دانلودها انجام نشد"
+msgstr "دانلودها ناموفق بودند"
 
 msgctxt "QObject|"
 msgid "Download added"
@@ -3651,7 +4441,7 @@ msgstr "خطای خواندن فایل"
 
 msgctxt "QObject|"
 msgid "Failed to read from file"
-msgstr "خواندن از فایل انجام نشد"
+msgstr "خواندن از فایل ناموفق بود"
 
 msgctxt "QObject|"
 msgid "File write error"
@@ -3659,7 +4449,7 @@ msgstr "خطای نوشتن فایل"
 
 msgctxt "QObject|"
 msgid "Failed to write to file"
-msgstr "نوشتن در فایل انجام نشد"
+msgstr "نوشتن در فایل ناموفق بود"
 
 msgctxt "QObject|"
 msgid "File open error"
@@ -3667,11 +4457,11 @@ msgstr "خطای باز کردن فایل"
 
 msgctxt "QObject|"
 msgid "Failed to open file"
-msgstr "باز کردن فایل انجام نشد"
+msgstr "باز کردن فایل ناموفق بود"
 
 msgctxt "QObject|"
 msgid "Access denied"
-msgstr "عدم دسترسی"
+msgstr "دسترسی رد شد"
 
 msgctxt "QObject|"
 msgid "Access to file is denied"
@@ -3685,6 +4475,7 @@ msgctxt "QObject|"
 msgid "Unknown file I/O error"
 msgstr "خطای ناشناخته در خواندن/نوشتن در فایل"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "HTTP Error %1"
 msgstr "خطای HTTP %1"
@@ -3695,7 +4486,7 @@ msgstr "درخواست بد"
 
 msgctxt "QObject|"
 msgid "Unauthorized"
-msgstr "احزار هویت نشده"
+msgstr "غیرمجاز"
 
 msgctxt "QObject|"
 msgid "Payment Required"
@@ -3703,7 +4494,7 @@ msgstr "نیاز به پرداخت دارد"
 
 msgctxt "QObject|"
 msgid "Forbidden"
-msgstr "ممنون"
+msgstr "ممنوع"
 
 msgctxt "QObject|"
 msgid "Not Found"
@@ -3719,7 +4510,7 @@ msgstr "قابل قبول نیست"
 
 msgctxt "QObject|"
 msgid "Proxy Authentication Required"
-msgstr "پراکسی نیاز به احراز هویت دارد"
+msgstr "پروکسی نیاز به احراز هویت دارد"
 
 msgctxt "QObject|"
 msgid "Request Timeout"
@@ -3739,7 +4530,7 @@ msgstr "طول نیاز دارد"
 
 msgctxt "QObject|"
 msgid "Precondition Failed"
-msgstr "پیش نیازها انجام نشد"
+msgstr "پیش‌شرط ناکام ماند"
 
 msgctxt "QObject|"
 msgid "Request Entity Too Large"
@@ -3763,7 +4554,7 @@ msgstr "توقع برآورده نشد"
 
 msgctxt "QObject|"
 msgid "I'm a teapot"
-msgstr "من یک Teapot هستم"
+msgstr "من یک قوری هستم"
 
 msgctxt "QObject|"
 msgid "Authentication Timeout"
@@ -3775,7 +4566,7 @@ msgstr "شکست روش / آرامش خود را تقویت کنید"
 
 msgctxt "QObject|"
 msgid "Unprocessable Entity"
-msgstr "موجودیت/ماهیت غیرقابل پردازش"
+msgstr "موجودیت غیرقابل پردازش"
 
 msgctxt "QObject|"
 msgid "Locked"
@@ -3783,7 +4574,7 @@ msgstr "قفل شده"
 
 msgctxt "QObject|"
 msgid "Failed Dependency / Method Failure"
-msgstr "عدم موفقیت وابستگی / روش"
+msgstr "وابستگی ناموفق / روش ناکام"
 
 msgctxt "QObject|"
 msgid "Unordered Collection"
@@ -3819,7 +4610,7 @@ msgstr "تلاش مجدد با"
 
 msgctxt "QObject|"
 msgid "Blocked by Windows Parental Controls"
-msgstr "توسط کنترل والدین ویندوز مسدود شده است"
+msgstr "توسط کنترل والدین ویندوز مسدود شده‌است"
 
 msgctxt "QObject|"
 msgid "Unavailable For Legal Reasons"
@@ -3843,7 +4634,7 @@ msgstr "‏HTTP به HTTPS"
 
 msgctxt "QObject|"
 msgid "Token expired/invalid"
-msgstr "توکن منقضی شده است / نامعتبر است"
+msgstr "توکن منقضی شده‌است / نامعتبر است"
 
 msgctxt "QObject|"
 msgid "Client Closed Request"
@@ -3883,7 +4674,7 @@ msgstr "ذخیره سازی ناکافی"
 
 msgctxt "QObject|"
 msgid "Loop Detected"
-msgstr "حله تشخیص داده شده"
+msgstr "حله تشخیص داده شد"
 
 msgctxt "QObject|"
 msgid "Bandwidth Limit Exceeded"
@@ -3919,11 +4710,19 @@ msgstr "قالب پشتیبانی نشده"
 
 msgctxt "QObject|"
 msgid "Not found"
-msgstr ""
+msgstr "پیدا نشد"
 
 msgctxt "QObject|"
 msgid "Incompatible version"
-msgstr ""
+msgstr "نسخه ناسازگار"
+
+msgctxt "QObject|"
+msgid "Security check failed"
+msgstr "چک امنیتی نا موفق بود"
+
+msgctxt "QObject|"
+msgid "Already exists"
+msgstr "از قبل وجود دارد"
 
 msgctxt "QObject|"
 msgid "Host not found"
@@ -3943,7 +4742,7 @@ msgstr "اتمام زمان مجاز"
 
 msgctxt "QObject|"
 msgid "SSL handshake failed"
-msgstr "گفتگوی SSL انجام نشد"
+msgstr "SSL handshake شکست خورد"
 
 msgctxt "QObject|"
 msgid "Connection refused"
@@ -3983,19 +4782,19 @@ msgstr "خطا در پردازش محتوای صفحه"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior"
-msgstr ""
+msgstr "رفتار نامطلوب"
 
 msgctxt "QObject|"
 msgid "Unwanted behavior detected"
-msgstr ""
+msgstr "رفتار نامطلوب شناسایی شد"
 
 msgctxt "QObject|"
 msgid "Unknown host key"
-msgstr ""
+msgstr "کلید میزبان ناشناس"
 
 msgctxt "QObject|"
 msgid "Public key of the host is unknown"
-msgstr ""
+msgstr "کلید عمومی میزبان ناشناخته است"
 
 msgctxt "QObject|"
 msgid "Unsupported URL"
@@ -4009,6 +4808,7 @@ msgctxt "QObject|"
 msgid "Failed to remove current version"
 msgstr "نسخه فعلی حذف نشد"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "hdiutil error %1"
 msgstr "خطای hdiutil %1"
@@ -4021,18 +4821,22 @@ msgctxt "QObject|"
 msgid "Signature check failure."
 msgstr "عدم موفقیت در بررسی امضا."
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download with %1"
 msgstr "دانلود با %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download all with %1"
 msgstr "دانلود همه با %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download selected with %1"
 msgstr "دانلود انتخاب شده ها با %1"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "Download video with %1"
 msgstr "دانلود ویدیو با %1"
@@ -4049,27 +4853,29 @@ msgctxt "QObject|"
 msgid "There is not enough disk space."
 msgstr "فضای دیسک کافی نیست."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "The list of downloads is damaged.\n"
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"لیست دانلود خراب شده است.\n"
+"لیست دانلود خراب شده‌است.\n"
 "%1 در بازگرداندن آن از پشتیبان گیری موفق نشد.\n"
-"لطفا تمام مرورگرهای خود را ببندید و دوباره تلاش کنید."
+"لطفاً تمام مرورگرهای خود را ببندید و دوباره تلاش کنید."
 
 msgctxt "QObject|"
 msgid "Fatal error: failed to load the database."
 msgstr "خطای جدی: بارگیری پایگاه داده انجام نشد."
 
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Would you like to erase it (this will clear your downloads list and all %1 "
 "data)?"
 msgstr ""
-"می خواهید آن را پاک کنید (با این کار لیست دانلودهای شما و تمام داده های٪ 1 "
-"پاک خواهند شد)؟"
+"مایل هستید آن را پاک کنید (این کار لیست دانلودهای شما و تمام داده های %1 را "
+"پاک خواهد کرد)؟"
 
 msgctxt "QObject|"
 msgid "Failed."
@@ -4101,7 +4907,7 @@ msgstr "متفرقه"
 
 msgctxt "QObject|"
 msgid "upload paused"
-msgstr ""
+msgstr "آپلود متوقف شده‌اشت"
 
 msgctxt "QObject|"
 msgid "PAUSE ALL"
@@ -4121,23 +4927,28 @@ msgstr "حالت حلزونی"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
-msgstr ""
+msgstr "دانلودهای یوتیوب در دسترس نیستند"
 
 msgctxt "QObject|"
 msgid "Files were modified"
-msgstr ""
+msgstr "فایل‌ها تغییر یافتند"
 
+#. 10 MB of unknown at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of unknown at %2"
-msgstr ""
+msgstr "%1 ناشناخته %2"
 
+#. 10 MB of 200 MB at 1 MB/s
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 of %2 at %3"
-msgstr ""
+msgstr "%1 از %2 در %3"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 %2 or higher"
-msgstr ""
+msgstr "%1 %2 یا بیشتر"
 
 msgctxt "QObject|"
 msgid "Launch Python code"
@@ -4145,6 +4956,10 @@ msgstr "اجرای کد پایتون"
 
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
+msgstr "اجازه اجرای کد دلخواه را می‌دهد."
+
+msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
 msgstr ""
 
 msgctxt "QObject|"
@@ -4153,23 +4968,25 @@ msgstr "در حال نصب..."
 
 msgctxt "QObject|"
 msgid "Uninstalling..."
-msgstr "در حال حذف نصب..."
+msgstr "در حال حذف..."
 
 msgctxt "QObject|"
 msgid "Missing components"
-msgstr ""
+msgstr "اجزای از دست رفته"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 are required"
 msgstr "%1 مورد نیاز هستند"
 
+#, qt-format
 msgctxt "QObject|"
 msgid "%1 is required"
 msgstr "%1 مورد نیاز است"
 
 msgctxt "QObject|"
 msgid "Failed to load"
-msgstr ""
+msgstr "ناموفق در بازکردن"
 
 msgctxt "QObject|"
 msgid "Playlist"
@@ -4177,47 +4994,57 @@ msgstr "لیست پخش"
 
 msgctxt "QObject|"
 msgid "Open folder"
+msgstr "باز کردن پوشه"
+
+msgctxt "QObject|"
+msgid "Security check failure."
 msgstr ""
 
+msgctxt "QObject|"
+msgid "Invalid version."
+msgstr ""
+
+#, qt-format
 msgctxt "QtFfmpegAvMerger|"
 msgid "%1 returned non-zero (%2) exit status"
-msgstr ""
+msgstr "%1 وضعیت خروجی غیرصفر (%2) را برگرداند"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
-msgstr ""
+msgstr "QIODevice::Append برای GZIP پشتیبانی نمی‌شود"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr ""
+msgstr "باز کردن gzip برای خواندن و نوشتن پشتیبانی نمی‌شود"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
-msgstr ""
+msgstr "می‌توانید یک فایل gzip را برای خواندن یا نوشتن باز کنید. کدام یک؟"
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr ""
+msgstr "امکان باز کردن فایل با gzopen() وجود ندارد"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::Append برای QuaZIODevice پشتیبانی نمی‌شود"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::ReadWrite is not supported for QuaZIODevice"
-msgstr ""
+msgstr "QIODevice::ReadWrite برای QuaZIODevice پشتیبانی نمی‌شود"
 
+#, qt-format
 msgctxt "QuaZipFile|"
 msgid "ZIP/UNZIP API error %1"
-msgstr ""
+msgstr "خطای ZIP/UNZIP API %1"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Are you sure you want to quit?"
-msgstr ""
+msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "QuitConfirmationDialog|"
 msgid "Cancel"
@@ -4225,15 +5052,16 @@ msgstr "انصراف"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote Access"
-msgstr ""
+msgstr "دسترسی کنترل از راه دور"
 
 msgctxt "RemoteControlSettings|"
 msgid "(beta)"
-msgstr ""
+msgstr "(بتا)"
 
+#, qt-format
 msgctxt "RemoteControlSettings|"
 msgid "Allow remote access to %1 running on this device"
-msgstr ""
+msgstr "اجازه دسترسی کنترل از راه دور به %1 که در این دستگاه اجرا می‌شود"
 
 msgctxt "RemoteControlSettings|"
 msgid "Password"
@@ -4245,19 +5073,19 @@ msgstr "وضعیت"
 
 msgctxt "RemoteControlSettings|"
 msgid "Don't use network proxy"
-msgstr ""
+msgstr "عدم استفاده از network proxy"
 
 msgctxt "RemoteControlSettings|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "تنظیمات ریموت کنترل"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Remote resource changed"
-msgstr ""
+msgstr "منبع ریموت تغییر کرد"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Always re-download"
-msgstr ""
+msgstr "همیشه دوباره دانلود کن"
 
 msgctxt "RemoteResourceChangedDialog|"
 msgid "Re-download"
@@ -4269,15 +5097,15 @@ msgstr "انصراف"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Rename file"
-msgstr ""
+msgstr "تغییر نام فایل"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Enter new name"
-msgstr ""
+msgstr "نام جدید را وارد کنید"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "فایلی با این نام از قبل وجود دارد."
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "Cancel"
@@ -4285,43 +5113,44 @@ msgstr "انصراف"
 
 msgctxt "RenameDownloadFileDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Rename file"
-msgstr ""
+msgstr "تغییر نام فایل"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "Enter new name"
-msgstr ""
+msgstr "نام جدید را وارد کنید"
 
 msgctxt "RenameDownloadFilePage|"
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "فایلی با این نام از قبل وجود دارد."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
 msgstr "گزارش مشکل"
 
+#, qt-format
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
 msgstr "متاسفیم، گزارش ارسال نشده است، یک خطا رخ داده: %1"
 
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "گزارش ارسال شده است. ممنون بابت همکاری شما!"
+msgstr "گزارش ارسال شده‌است. ممنون بابت همکاری شما!"
 
 msgctxt "ReportSentDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "RestartRequiredLabel|"
 msgid "<a href='#'>Restart is required</a>"
-msgstr ""
+msgstr "<a href='#'>نیاز به راه‌اندازی مجدد است</a>"
 
 msgctxt "SaveTo|"
 msgid "Save to"
@@ -4377,23 +5206,23 @@ msgstr "تا:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
-msgstr "زمانبند"
+msgstr "برنامه‌ریز"
 
 msgctxt "SchedulerCheckbox|"
 msgid "Scheduler"
-msgstr "زمانبند"
+msgstr "برنامه‌ریز"
 
 msgctxt "SchedulerDialog|"
 msgid "Scheduler"
-msgstr "زمانبند"
+msgstr "برنامه‌ریز"
 
 msgctxt "SchedulerDialog|"
 msgid "Start and pause downloads at specified time"
-msgstr "شروع و مکث  دانلودها در زمانی خاص"
+msgstr "شروع و مکث دانلودها در زمانی خاص"
 
 msgctxt "SchedulerDialog|"
 msgid "Enable Scheduler"
-msgstr "فعالسازی زمانبند"
+msgstr "فعالسازی برنامه‌ریز"
 
 msgctxt "SchedulerDialog|"
 msgid "Cancel"
@@ -4447,14 +5276,11 @@ msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
 msgstr "برای فعال کردن برنامه زمانبندی، روزهای هفته را تنظیم کنید"
 
-msgctxt "SearchField|"
-msgid "Search"
-msgstr "جستجو"
-
 msgctxt "SearchToolbar|"
 msgid "Search"
 msgstr "جستجو"
 
+#, qt-format
 msgctxt "SelectModeTopBar|"
 msgid "Selected: %1"
 msgstr "انتخاب شده: %1"
@@ -4477,11 +5303,11 @@ msgstr "بر اساس حجم"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Ascending"
-msgstr "صعودی"
+msgstr "افزایشی"
 
 msgctxt "SelectSortFieldDialog|"
 msgid "Descending"
-msgstr "نزولی"
+msgstr "کاهشی"
 
 msgctxt "SettingsPage|"
 msgid "Invalid settings"
@@ -4489,7 +5315,7 @@ msgstr "تنظیمات نامعتبر"
 
 msgctxt "SettingsPage|"
 msgid ". Close anyway?"
-msgstr ". حتما بسته شود؟"
+msgstr "به هر حال بسته شود؟"
 
 msgctxt "SettingsPage|"
 msgid "Preferences"
@@ -4513,11 +5339,11 @@ msgstr "محدودیت ترافیک"
 
 msgctxt "SettingsPage|"
 msgid "Antivirus"
-msgstr "آنتی ویروس"
+msgstr "آنتی‌ویروس"
 
 msgctxt "SettingsPage|"
 msgid "Remote Access"
-msgstr ""
+msgstr "دسترسی ریموت"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
@@ -4525,7 +5351,7 @@ msgstr "پیشرفته"
 
 msgctxt "SettingsPage|"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "عیب‌یابی"
 
 msgctxt "SettingsPage|"
 msgid "Settings"
@@ -4549,7 +5375,7 @@ msgstr "تنظیمات صدا"
 
 msgctxt "SettingsPage|"
 msgid "Remote control settings"
-msgstr ""
+msgstr "تنظیمات ریموت کنترل"
 
 msgctxt "SettingsPage|"
 msgid "Advanced settings"
@@ -4557,15 +5383,15 @@ msgstr "تنظیمات پیشرفته"
 
 msgctxt "SettingsPage|"
 msgid "Reset settings"
-msgstr ""
+msgstr "تنظیم مجدد تنظیمات"
 
 msgctxt "SettingsPage|"
 msgid "Default settings"
-msgstr "تنظیمات پیش فرض"
+msgstr "تنظیمات پیش‌فرض"
 
 msgctxt "SettingsPage|"
 msgid "Restore default settings?"
-msgstr "بازیابی تنظیمات پیش فرض؟"
+msgstr "بازیابی تنظیمات پیش‌فرض؟"
 
 msgctxt "ShutdownBanner|"
 msgid "Cancel"
@@ -4585,15 +5411,16 @@ msgstr "بعد از اتمام همه دانلودها، کامپیوتر خام
 
 msgctxt "ShutdownDialog|"
 msgid "Confirm"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "ShutdownDialog|"
 msgid "Cancel"
 msgstr "انصراف"
 
+#, qt-format
 msgctxt "ShutdownDialog|"
 msgid "OK (%1)"
-msgstr "تایید (%1)"
+msgstr "تأیید (%1)"
 
 msgctxt "ShutdownDialog|"
 msgid "Attention! Your computer will be put to Sleep mode."
@@ -4617,15 +5444,15 @@ msgstr "استفاده از صداها"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
-msgstr "دانلودها اضافه شده"
+msgstr "دانلودها اضافه شده‌اند"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads completed"
-msgstr "دانلودها تمام شده است"
+msgstr "دانلودها تمام شده‌اند"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads failed"
-msgstr "دانلودها انجام نشد"
+msgstr "دانلودها موفق نبودند"
 
 msgctxt "SoundsSettings|"
 msgid "No active downloads"
@@ -4637,19 +5464,20 @@ msgstr "هشدار: خطر بالقوه امنیتی پیش رو"
 
 msgctxt "SslDialog|"
 msgid "The authenticity of the host can't be established."
-msgstr ""
+msgstr "اصالت میزبان قابل تأیید نیست."
 
 msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "گواهی SSL معتبر نیست."
 
+#, qt-format
 msgctxt "SslDialog|"
 msgid "%1 key fingerprints"
-msgstr ""
+msgstr "%1 اثرانگشت کلید"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
-msgstr "اثر انگشت"
+msgstr "اثر انگشت گواهی‌"
 
 msgctxt "SslDialog|"
 msgid "SHA-256:"
@@ -4664,10 +5492,12 @@ msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
 msgstr ""
+"اگر به این میزبان اعتماد دارید، «پذیرش» را انتخاب کنید تا کلید را به خاطر "
+"بسپارید و به اتصال ادامه دهید."
 
 msgctxt "SslDialog|"
 msgid "Accept"
-msgstr ""
+msgstr "قبول‌کردن"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4679,7 +5509,7 @@ msgstr "انصراف"
 
 msgctxt "SslDialog|"
 msgid "Security risk"
-msgstr "ریسک امنیتی"
+msgstr "خطر امنیتی"
 
 msgctxt "SslDialog|"
 msgid "Continue"
@@ -4687,11 +5517,11 @@ msgstr "ادامه"
 
 msgctxt "StatusItem|"
 msgid "Checking files"
-msgstr "در حال بررسی فایل ها"
+msgstr "در حال بررسی فایل‌ها"
 
 msgctxt "StatusItem|"
 msgid "Merging media streams"
-msgstr "ادغام جریان رسانه ها"
+msgstr "ادغام جریان رسانه‌ها"
 
 msgctxt "StatusItem|"
 msgid "Queued"
@@ -4707,7 +5537,7 @@ msgstr "حجم فایل نامشخص"
 
 msgctxt "StatusItem|"
 msgid "Paused"
-msgstr "مکث  شده"
+msgstr "مکث شده"
 
 msgctxt "StatusItem|"
 msgid "Completed"
@@ -4715,7 +5545,7 @@ msgstr "تمام شده"
 
 msgctxt "StopDownloadDialog|"
 msgid "Pause download"
-msgstr "مکث  دانلود"
+msgstr "مکث دانلود"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing."
@@ -4739,15 +5569,15 @@ msgstr "دانلود (های) زیر پس از مکث قابل از سرگیری
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
-msgstr ""
+msgstr "گزارش اشکال را ارسال کنید"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Title"
-msgstr ""
+msgstr "عنوان"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Description"
-msgstr ""
+msgstr "توضیحات"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Name"
@@ -4755,15 +5585,16 @@ msgstr "نام"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "E-mail"
-msgstr ""
+msgstr "ایمیل"
 
+#, qt-format
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
-msgstr ""
+msgstr "ضمیمه کردن فایل‌های گزارش %1 (توصیه می‌شود)"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Required fields"
-msgstr ""
+msgstr "فیلدهای ضروری"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Close"
@@ -4775,11 +5606,55 @@ msgstr "انصراف"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submitting"
-msgstr ""
+msgstr "در حال ارسال"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
-msgstr ""
+msgstr "ارسال"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "گزارش اشکال را ارسال کنید"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "عنوان"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "توضیحات"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "نام"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "ایمیل"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "ضمیمه کردن فایل‌های گزارش %1 (توصیه می‌شود)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "فیلدهای ضروری"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "در حال ارسال"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "ارسال"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
@@ -4815,7 +5690,7 @@ msgstr "تیره"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr ""
+msgstr "لطفاً اجازه دسترسی به دوربین را برای استفاده از اسکنر QR بدهید"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4827,7 +5702,7 @@ msgstr "کم"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Medium"
-msgstr "معمولی"
+msgstr "عادی"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "High"
@@ -4855,15 +5730,15 @@ msgstr "حداکثر تعداد دانلودهای همزمان"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
-msgstr ""
+msgstr "حداکثر تعداد دانلودهای اطلاعات اضافی پرس و جو:"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Enable additional downloads to optimize speed"
-msgstr ""
+msgstr "فعال‌سازی دانلودهای اضافی را برای بهینه‌سازی سرعت"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
-msgstr "تنظیمات محدودیت ترافیک نامعتبر است"
+msgstr "تنظیمات محدودیت ترافیک نامعتبر"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic limits"
@@ -4871,39 +5746,85 @@ msgstr "محدودیت ترافیک"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "عیب‌یابی"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive logs..."
-msgstr ""
+msgstr "آرشیو کردن لاگ‌ها..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Zip files"
-msgstr ""
+msgstr "فایل‌های zip"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Failed"
-msgstr ""
+msgstr "ناموفق"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Archive service data..."
-msgstr ""
+msgstr "بایگانی کردن داده‌های خدمات..."
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable enhanced logging"
-msgstr ""
+msgstr "فعال کردن ثبت گزارش‌های پیشرفته"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Enable LT alerts logging"
-msgstr ""
+msgstr "فعال کردن ثبت گزارش‌های هشدار LT"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Restart is required"
-msgstr ""
+msgstr "نیاز به راه‌اندازی مجدد است"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Do crash app"
+msgstr "برنامه را خراب کنید"
 
 msgctxt "TroubleshootingSettings|"
 msgid "Hide"
-msgstr "پنهان"
+msgstr "پنهان کردن"
+
+msgctxt "TroubleshootingSettings|"
+msgid "Enable downloads management logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "کم"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "عادی"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "زیاد"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "حالت حلزونی"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "محدودیت ترافیک را تغییر دهید"
 
 msgctxt "TumComboBox|"
 msgid "Unlimited"
@@ -4917,6 +5838,7 @@ msgctxt "TumComboBox|"
 msgid "unlimited"
 msgstr "نامحدود"
 
+#, qt-format
 msgctxt "TumComboBox|"
 msgid "Download: %1, Upload: %2"
 msgstr "دانلود: %1، آپلود %2"
@@ -4927,7 +5849,7 @@ msgstr "زیاد"
 
 msgctxt "TumComboBox|"
 msgid "Medium"
-msgstr "معمولی"
+msgstr "عادی"
 
 msgctxt "TumComboBox|"
 msgid "Low"
@@ -4943,7 +5865,7 @@ msgstr "سفارشی..."
 
 msgctxt "TumMaxURatioComboBox|"
 msgid "Please enter numbers only"
-msgstr "لطفا فقط عدد وارد کنید"
+msgstr "لطفاً فقط عدد وارد کنید"
 
 msgctxt "TumModeBlock|"
 msgid "Download speed"
@@ -4959,27 +5881,32 @@ msgstr "حداکثر تعداد دانلودهای همزمان"
 
 msgctxt "TumModeBlock|"
 msgid "Snail mode"
-msgstr "حالت حلزونی (کند)"
+msgstr "حالت حلزونی"
 
 msgctxt "TumModeBlock|"
 msgid "Frees bandwidth without stopping downloads."
-msgstr "پهنای باند را بدون توقف دانلود آزاد می کند."
+msgstr "پهنای باند را بدون توقف دانلودها آزاد می کند."
 
 msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "محدودیت ترافیک را تغییر دهید"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
+#, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr ""
+msgstr "نمی‌تواند بیشتر از %1 باشد"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "دانلود جدید"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "فایل جدید"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -4995,23 +5922,85 @@ msgstr "نام فایل"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "پخش فایل در هنگام دانلود"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
 msgstr "مجوز نوشتن برای پوشه انتخاب شده وجود ندارد"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
 msgstr "حجم: %1 (فضای دیسک: %2)"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"
-msgstr ""
+msgstr "فضای دیسک: %1"
 
+#, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "حجم: %1"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "فایل جدید"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "دانلود"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "فایل جدید"
+
+msgctxt "UiCoreBase|"
+msgid "Support the project"
+msgstr ""
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
+msgstr ""
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "High"
+msgstr "زیاد"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Low"
+msgstr "کم"
+
+#, fuzzy
+msgctxt "UiCoreBase|"
+msgid "Normal"
+msgstr "عادی"
+
+msgctxt "UiUpdatedBanner|"
+msgid "The classic interface is turned on."
+msgstr "رابط کلاسیک فعال شده‌است."
+
+msgctxt "UiUpdatedBanner|"
+msgid "The new interface is turned on."
+msgstr "رابط جدید فعال شده‌است."
+
+msgctxt "UiUpdatedBanner|"
+msgid "OK"
+msgstr "تأیید"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the new interface"
+msgstr "تغییر به رابط کاربری جدید"
+
+msgctxt "UiUpdatedBanner|"
+msgid "Switch to the classic interface"
+msgstr "تغییر به رابط کلاسیک"
 
 msgctxt "UpdateDialog|"
 msgid "Checking for updates..."
@@ -5023,7 +6012,7 @@ msgstr "خطا:"
 
 msgctxt "UpdateDialog|"
 msgid "Retry"
-msgstr "تلاش دوباره"
+msgstr "تلاش مجدد"
 
 msgctxt "UpdateDialog|"
 msgid "Cancel"
@@ -5033,21 +6022,23 @@ msgctxt "UpdateDialog|"
 msgid "New version is available"
 msgstr "نسخه جدید موجود است"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "What's new in %1"
-msgstr "موارد جدید در %1"
+msgstr "چه چیز جدیدی در %1 است"
 
 msgctxt "UpdateDialog|"
 msgid "Update"
 msgstr "بروزرسانی"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
 msgstr "%1 به روز است"
 
 msgctxt "UpdateDialog|"
 msgid "OK"
-msgstr "تایید"
+msgstr "تأیید"
 
 msgctxt "UpdateDialog|"
 msgid "Downloading update"
@@ -5077,6 +6068,7 @@ msgctxt "UpdateDialog|"
 msgid "Error occurred during installation:"
 msgstr "خطا در هنگام نصب بروزرسانی:"
 
+#, qt-format
 msgctxt "UpdateDialog|"
 msgid "Relaunch %1 to update"
 msgstr "راه اندازی مجدد %1 برای بروزرسانی"
@@ -5097,9 +6089,10 @@ msgctxt "VideoQuality|"
 msgid "Quality:"
 msgstr "کیفیت:"
 
+#, qt-format
 msgctxt "VoteBlock|"
 msgid "Enjoy %1?"
-msgstr "از %1 لذت می برید؟"
+msgstr "از %1 لذت می‌برید؟"
 
 msgctxt "VoteBlock|"
 msgid "Not, really"
@@ -5111,7 +6104,7 @@ msgstr "بله!"
 
 msgctxt "VoteBlock|"
 msgid "Thanks a lot! Please rate on Google Play."
-msgstr "خیلی ممنون! لطفاً در Google Play رای دهید."
+msgstr "بسیار ممنون! لطفاً در گوگل پلی امتیاز دهید."
 
 msgctxt "VoteBlock|"
 msgid "No, thanks"
@@ -5127,23 +6120,25 @@ msgstr "بعدا"
 
 msgctxt "VoteBlock|"
 msgid "Let's make it better together! Give us your feedback."
-msgstr "بیایید با هم بهتر شویم! نظراتتون رو بهمون بگید."
+msgstr "بیایید با هم بهتر شویم! بازخوردتان را به ما بگویید."
 
 msgctxt "WaitingPage|"
 msgid "Loading"
-msgstr ""
+msgstr "در حال بارگذاری"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Connection to %1"
-msgstr ""
+msgstr "اتصال به %1"
 
+#, qt-format
 msgctxt "WaitingPage|"
 msgid "Error: %1"
 msgstr "خطا: %1"
 
 msgctxt "WaitingPage|"
 msgid "Retry"
-msgstr "تلاش دوباره"
+msgstr "تلاش مجدد"
 
 msgctxt "WaitingPage|"
 msgid "Cancel"
@@ -5157,22 +6152,37 @@ msgctxt "WhatsNewDialog|"
 msgid "New version is available"
 msgstr "نسخه جدید موجود است"
 
+#, qt-format
 msgctxt "WhatsNewDialog|"
 msgid "What's new in %1"
-msgstr "موارد جدید در %1"
+msgstr "چه چیز جدیدی در %1 است"
 
 msgctxt "WhatsNewDialog|"
 msgid "Update"
 msgstr "بروزرسانی"
 
+#, qt-format
 msgctxt "main|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
-msgstr "متاسفیم، گزارش ارسال نشده است، یک خطا رخ داده: %1"
+msgstr "متأسفانه، گزارش ارسال نشد، خطایی رخ داده است: %1"
 
 msgctxt "main|"
 msgid "The report has been sent. Thank you for your cooperation!"
-msgstr "گزارش ارسال شده است. ممنون بابت همکاری شما!"
+msgstr "گزارش ارسال شد. از همکاری شما سپاسگزاریم!"
 
+#, qt-format
 msgctxt "main|"
 msgid "Remote connection to %1"
-msgstr ""
+msgstr "اتصال ریموت به %1"
+
+msgctxt "main|"
+msgid "Add download"
+msgstr "افزودن دانلود"
+
+msgctxt "main|"
+msgid "New download"
+msgstr "دانلود جدید"
+
+msgctxt "main|"
+msgid "OK to remove tag?"
+msgstr "آیا حذف برچسب مورد تأیید است؟"

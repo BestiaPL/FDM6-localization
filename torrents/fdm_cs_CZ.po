@@ -30,7 +30,7 @@ msgstr "Dostupnost:"
 
 msgctxt "BtDetailsTab|"
 msgid "Last seen complete:"
-msgstr "Naposledy viděno dokončeno:"
+msgstr "Naposledy viděno kompletní:"
 
 msgctxt "BtDetailsTab|"
 msgid "Tracker URL"
@@ -60,17 +60,30 @@ msgctxt "DownloadContextMenu|"
 msgid "Force reannounce"
 msgstr "Vynutit opětovné ohlášení"
 
+#, qt-format
 msgctxt "IntegrationBanner|"
 msgid "Would you like to make %1 the default torrent client?"
 msgstr "Chcete nastavit %1 jako výchozího torrentového klienta?"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Check if %1 is your default torrent client"
 msgstr "Zkontrolovat, zda je %1 Váš výchozí torrentový klient"
 
+#, qt-format
 msgctxt "IntegrationSettings|"
 msgid "Make %1 default torrent client"
 msgstr "Nastavit %1 jako výchozí torrentový klient"
+
+#. Please keep %2 and %3 as is. They will be replaced with a hyperlink code or an empty string (depends on platform)
+#, qt-format
+msgctxt "IntegrationSettings|"
+msgid ""
+"Please use %2Default apps system settings%3 to make %1 the default torrent "
+"client"
+msgstr ""
+"Aby byl %1 výchozím torrentovým klientem, použijte %2systémové nastavení "
+"Výchozí aplikace%3"
 
 msgctxt "QObject|"
 msgid "Associate with magnet links"
@@ -83,6 +96,10 @@ msgstr "Asociovat s odkazy torrent"
 msgctxt "QObject|"
 msgid "Enter URL or choose torrent file"
 msgstr "Zadejte URL nebo zvolte soubor s torrentem"
+
+msgctxt "QObject|"
+msgid "Drag-and-drop URL or torrent file"
+msgstr "Přetáhněte a pusťte URL nebo soubor s torrentem"
 
 msgctxt "QObject|"
 msgid "Merge trackers"
@@ -131,6 +148,10 @@ msgstr "Povolit seznam předdefinovaných trackerů"
 msgctxt "Settings|"
 msgid "BitTorrent settings"
 msgstr "Nastavení BitTorrentu"
+
+msgctxt "Settings|"
+msgid "Use UPnP / NAT-PMP port forwarding"
+msgstr "Použít port forwarding UPnP / NAT-PMP"
 
 msgctxt "SettingsPage|"
 msgid "Stop seeding at ratio"
